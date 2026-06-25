@@ -1,0 +1,4791 @@
+{
+  "2022-23": {
+    "April": {
+      "metadata": {
+        "file": "Apr-22.pdf",
+        "month": "April",
+        "year": "2022",
+        "serial_no": "12",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE KATHA",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 12011.31,
+        "erc_cpf": 10536,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "Arr.HR Allowance": 6946.97,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 20262,
+        "CMRE": 12200,
+        "Maint charge WG": 21000,
+        "Uniform Reimb": 45193.32,
+        "Medical  Reimb": 3231,
+        "Coin Adjus": -0.15
+      },
+      "deductions": {
+        "CPF EEC": 10536,
+        "Income Tax": 17786,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2634.06,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Bachelor Accom": 500,
+        "White goods Rent": 1115.12,
+        "Coin Adjus": -0.21
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 67540,
+        "CMRE": 10400,
+        "DA": 20262,
+        "Other (T)": 25586,
+        "HRA": 6078,
+        "Other(NT)": 22800,
+        "Other Pay": 45193,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 12011
+      },
+      "ytd_deductions": {
+        "CPF": 10536,
+        "P. Tax": 200,
+        "CSSS": 2000,
+        "Tot Incm": 205328,
+        "WG Rent": 1115,
+        "Tax Incm": 182528,
+        "Eec PRBS": 14127,
+        "Erc PRBS": 12011,
+        "I. Tax": 17786,
+        "EEC NPS": 3571
+      },
+      "perks": {
+        "Housing": 500,
+        "Bachelor": -500
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1477914,
+        "Ded us 80": 192852,
+        "Income": 1425515,
+        "I.Tax&Sur": 189591,
+        "Std Dedn": 50000,
+        "Tax Payab": 171805
+      },
+      "totals": {
+        "tot_earn": 204807.41,
+        "tot_dedn": 50960.41,
+        "net_pay": 153847
+      }
+    },
+    "August": {
+      "metadata": {
+        "file": "Aug-22.pdf",
+        "month": "August",
+        "year": "2022",
+        "serial_no": "8",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 13710.03,
+        "erc_cpf": 10739,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 21951,
+        "Medical  Reimb": 7757,
+        "Coin Adjus": 0.46
+      },
+      "deductions": {
+        "CPF EEC": 10739,
+        "Income Tax": 18868,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2684.73,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": -0.44
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 337700,
+        "CMRE": 42860,
+        "DA": 104688,
+        "Other (T)": 123950,
+        "HRA": 30393,
+        "Other(NT)": 28200,
+        "Other Pay": 81775,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 61986
+      },
+      "ytd_deductions": {
+        "CPF": 53086,
+        "P. Tax": 1000,
+        "CSSS": 10000,
+        "Tot Incm": 757034,
+        "WG Rent": 1115,
+        "Tax Incm": 728834,
+        "Eec PRBS": 70738,
+        "Erc PRBS": 61986,
+        "I. Tax": 87150,
+        "EEC NPS": 17855
+      },
+      "perks": {},
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1572898,
+        "Ded us 80": 192852,
+        "Income": 1520499,
+        "I.Tax&Sur": 219227,
+        "Std Dedn": 50000,
+        "Tax Payab": 132077
+      },
+      "totals": {
+        "tot_earn": 125682.73,
+        "tot_dedn": 50680.73,
+        "net_pay": 75002
+      }
+    },
+    "December": {
+      "metadata": {
+        "file": "Dec-22.pdf",
+        "month": "December",
+        "year": "2022",
+        "serial_no": "4",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 13201.38,
+        "erc_cpf": 10925,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 23504,
+        "CMRE": 12740,
+        "Coin Adjus": -0.4
+      },
+      "deductions": {
+        "CPF EEC": 10925,
+        "Income Tax": 27745,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2731.32,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "WDV/REC Mobile H": 200,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.11
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 607860,
+        "Incentive": 172106,
+        "DA": 197151,
+        "CMRE": 97200,
+        "HRA": 54707,
+        "Other (T)": 325673,
+        "Other(NT)": 37200,
+        "Other Pay": 126968,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 114566
+      },
+      "ytd_deductions": {
+        "CPF": 96600,
+        "P. Tax": 1800,
+        "CSSS": 18000,
+        "Tot Incm": 1626334,
+        "WG Rent": 2230,
+        "Tax Incm": 1589134,
+        "Eec PRBS": 127591,
+        "Erc PRBS": 114566,
+        "I. Tax": 260221,
+        "EEC NPS": 32139
+      },
+      "perks": {
+        "Asset Tra": 4800
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1971072,
+        "Ded us 80": 192852,
+        "Income": 1918673,
+        "I.Tax&Sur": 343457,
+        "Std Dedn": 50000,
+        "Tax Payab": 83236
+      },
+      "totals": {
+        "tot_earn": 132217.87,
+        "tot_dedn": 60515.87,
+        "net_pay": 71702
+      }
+    },
+    "February": {
+      "metadata": {
+        "file": "Feb-23.pdf",
+        "month": "February",
+        "year": "2023",
+        "serial_no": "2",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14256.11,
+        "erc_cpf": 11798,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 26658,
+        "CMRE": 12740,
+        "Medical  Reimb": 11609,
+        "Coin Adjus": -0.38
+      },
+      "deductions": {
+        "CPF EEC": 11798,
+        "Income Tax": 41041,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2949.54,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": -0.29
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 737500,
+          "accrued_interest": 4895.84
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 751180,
+        "Incentive": 264778,
+        "DA": 250467,
+        "CMRE": 119080,
+        "HRA": 67606,
+        "Other (T)": 416877,
+        "Other(NT)": 45800,
+        "Other Pay": 172161,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 143078
+      },
+      "ytd_deductions": {
+        "CPF": 120196,
+        "P. Tax": 2200,
+        "CSSS": 22000,
+        "Tot Incm": 2095419,
+        "WG Rent": 2230,
+        "Tax Incm": 2049619,
+        "Eec PRBS": 156477,
+        "Erc PRBS": 143078,
+        "I. Tax": 376578,
+        "EEC NPS": 39281
+      },
+      "perks": {
+        "Int Loan": 7078,
+        "Asset Tra": 4800
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2208766,
+        "Ded us 80": 192852,
+        "Income": 2156367,
+        "I.Tax&Sur": 417619,
+        "Std Dedn": 50000,
+        "Tax Payab": 41041
+      },
+      "totals": {
+        "tot_earn": 152913.69,
+        "tot_dedn": 80452.69,
+        "net_pay": 72461
+      }
+    },
+    "January": {
+      "metadata": {
+        "file": "Jan-23.pdf",
+        "month": "January",
+        "year": "2023",
+        "serial_no": "3",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14256.11,
+        "erc_cpf": 11798,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 26658,
+        "CMRE": 12740,
+        "PRP Payment": 92672.48,
+        "Uniform Reimb": 45193.32,
+        "Coin Adjus": -0.29
+      },
+      "deductions": {
+        "CPF EEC": 11798,
+        "Income Tax": 65332,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2949.54,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": -0.4
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 743750,
+          "accrued_interest": 2416.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 679520,
+        "Incentive": 264778,
+        "DA": 223809,
+        "CMRE": 108140,
+        "HRA": 61156,
+        "Other (T)": 349471,
+        "Other(NT)": 44000,
+        "Other Pay": 172161,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 128822
+      },
+      "ytd_deductions": {
+        "CPF": 108398,
+        "P. Tax": 2000,
+        "CSSS": 20000,
+        "Tot Incm": 1910505,
+        "WG Rent": 2230,
+        "Tax Incm": 1866505,
+        "Eec PRBS": 142034,
+        "Erc PRBS": 128822,
+        "I. Tax": 325553,
+        "EEC NPS": 35710
+      },
+      "perks": {
+        "Asset Tra": 4800
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2147139,
+        "Ded us 80": 192852,
+        "Income": 2094739,
+        "I.Tax&Sur": 398390,
+        "Std Dedn": 50000,
+        "Tax Payab": 72837
+      },
+      "totals": {
+        "tot_earn": 279170.58,
+        "tot_dedn": 104743.58,
+        "net_pay": 174427
+      }
+    },
+    "July": {
+      "metadata": {
+        "file": "July-22.pdf",
+        "month": "July",
+        "year": "2022",
+        "serial_no": "9",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 12242.37,
+        "erc_cpf": 10739,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 21951,
+        "CMRE": 12620,
+        "Uniform Reimb": 45193.32,
+        "Medical  Reimb": 142.6,
+        "Coin Adjus": -0.44
+      },
+      "deductions": {
+        "CPF EEC": 10739,
+        "Income Tax": 18495,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2684.73,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Arr.Bach Acc Rec": -1500,
+        "Coin Adjus": -0.42
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 270160,
+        "CMRE": 42860,
+        "DA": 82737,
+        "Other (T)": 93838,
+        "HRA": 24314,
+        "Other(NT)": 28200,
+        "Other Pay": 81775,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 48276
+      },
+      "ytd_deductions": {
+        "CPF": 42347,
+        "P. Tax": 800,
+        "CSSS": 8000,
+        "Tot Incm": 631352,
+        "WG Rent": 1115,
+        "Tax Incm": 603152,
+        "Eec PRBS": 56560,
+        "Erc PRBS": 48276,
+        "I. Tax": 68282,
+        "EEC NPS": 14284
+      },
+      "perks": {},
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1563341,
+        "Ded us 80": 192852,
+        "Income": 1510942,
+        "I.Tax&Sur": 216245,
+        "Std Dedn": 50000,
+        "Tax Payab": 147963
+      },
+      "totals": {
+        "tot_earn": 175880.75,
+        "tot_dedn": 48807.75,
+        "net_pay": 127073
+      }
+    },
+    "June": {
+      "metadata": {
+        "file": "June-22.pdf",
+        "month": "June",
+        "year": "2022",
+        "serial_no": "10",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE KATHA",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 12011.31,
+        "erc_cpf": 10536,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 20262,
+        "CMRE": 12620,
+        "Retro Uniform Rm": -8611.63,
+        "Medical  Reimb": 1042,
+        "Coin Adjus": -0.42
+      },
+      "deductions": {
+        "CPF EEC": 10536,
+        "Income Tax": 16022,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2634.06,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "Arr.Elect Charge": 80.64,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Bachelor Accom": 500,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.08
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 202620,
+        "CMRE": 32040,
+        "DA": 60786,
+        "Other (T)": 71340,
+        "HRA": 18235,
+        "Other(NT)": 26400,
+        "Other Pay": 36581,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 36033
+      },
+      "ytd_deductions": {
+        "CPF": 31608,
+        "P. Tax": 600,
+        "CSSS": 6000,
+        "Tot Incm": 455471,
+        "WG Rent": 1115,
+        "Tax Incm": 429071,
+        "Eec PRBS": 42382,
+        "Erc PRBS": 36033,
+        "I. Tax": 49787,
+        "EEC NPS": 10713
+      },
+      "perks": {
+        "Housing": 500,
+        "Bachelor": -500
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1491984,
+        "Ded us 80": 192852,
+        "Income": 1439585,
+        "I.Tax&Sur": 193981,
+        "Std Dedn": 50000,
+        "Tax Payab": 144194
+      },
+      "totals": {
+        "tot_earn": 121286.22,
+        "tot_dedn": 48662.22,
+        "net_pay": 72624
+      }
+    },
+    "March": {
+      "metadata": {
+        "file": "Mar-23.pdf",
+        "month": "March",
+        "year": "2023",
+        "serial_no": "1",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14256.11,
+        "erc_cpf": 11798,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 26658,
+        "CMRE": 12740,
+        "Arr.Car Insuranc": 25000,
+        "Coin Adjus": -0.03
+      },
+      "deductions": {
+        "CPF EEC": 11798,
+        "Income Tax": 52254,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2949.54,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "Rec Excess call:": 3572.44,
+        "Coin Adjus": -0.38
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 731250,
+          "accrued_interest": 7354.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 822840,
+        "Incentive": 264778,
+        "DA": 277125,
+        "CMRE": 130020,
+        "HRA": 74055,
+        "Other (T)": 440675,
+        "Other(NT)": 47600,
+        "Other Pay": 197161,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 157335
+      },
+      "ytd_deductions": {
+        "CPF": 131994,
+        "P. Tax": 2400,
+        "CSSS": 24000,
+        "Tot Incm": 2261724,
+        "WG Rent": 2230,
+        "Tax Incm": 2214124,
+        "Eec PRBS": 170920,
+        "Erc PRBS": 157335,
+        "I. Tax": 428832,
+        "EEC NPS": 42852
+      },
+      "perks": {
+        "Int Loan": 7078,
+        "Asset Tra": 4800
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2244706,
+        "Ded us 80": 192852,
+        "Income": 2192307,
+        "I.Tax&Sur": 428832,
+        "Std Dedn": 50000
+      },
+      "totals": {
+        "tot_earn": 166305.04,
+        "tot_dedn": 95738.04,
+        "net_pay": 70567
+      }
+    },
+    "May": {
+      "metadata": {
+        "file": "May-22.pdf",
+        "month": "May",
+        "year": "2022",
+        "serial_no": "11",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE KATHA",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 12011.31,
+        "erc_cpf": 10536,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 20262,
+        "CMRE": 12620,
+        "Coin Adjus": 0.08
+      },
+      "deductions": {
+        "CPF EEC": 10536,
+        "Income Tax": 15979,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2634.06,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Arr.Gas charges": 550,
+        "Bachelor Accom": 500,
+        "Coin Adjus": -0.15
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 135080,
+        "CMRE": 21220,
+        "DA": 40524,
+        "Other (T)": 47942,
+        "HRA": 12157,
+        "Other(NT)": 24600,
+        "Other Pay": 45193,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 24022
+      },
+      "ytd_deductions": {
+        "CPF": 21072,
+        "P. Tax": 400,
+        "CSSS": 4000,
+        "Tot Incm": 334184,
+        "WG Rent": 1115,
+        "Tax Incm": 309584,
+        "Eec PRBS": 28255,
+        "Erc PRBS": 24022,
+        "I. Tax": 33765,
+        "EEC NPS": 7142
+      },
+      "perks": {
+        "Housing": 500,
+        "Bachelor": -500
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1490614,
+        "Ded us 80": 192852,
+        "Income": 1438215,
+        "I.Tax&Sur": 193554,
+        "Std Dedn": 50000,
+        "Tax Payab": 159789
+      },
+      "totals": {
+        "tot_earn": 128856.35,
+        "tot_dedn": 48588.35,
+        "net_pay": 80268
+      }
+    },
+    "November": {
+      "metadata": {
+        "file": "Nov-22.pdf",
+        "month": "November",
+        "year": "2022",
+        "serial_no": "5",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 13201.38,
+        "erc_cpf": 10925,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 23504,
+        "CMRE": 12740,
+        "Coin Adjus": 0.11
+      },
+      "deductions": {
+        "CPF EEC": 10925,
+        "Income Tax": 26518,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2731.32,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": -0.38
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 540320,
+        "Incentive": 172106,
+        "DA": 173647,
+        "CMRE": 86260,
+        "HRA": 48628,
+        "Other (T)": 287317,
+        "Other(NT)": 35400,
+        "Other Pay": 126968,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 101365
+      },
+      "ytd_deductions": {
+        "CPF": 85675,
+        "P. Tax": 1600,
+        "CSSS": 16000,
+        "Tot Incm": 1478116,
+        "WG Rent": 2230,
+        "Tax Incm": 1442716,
+        "Eec PRBS": 113366,
+        "Erc PRBS": 101365,
+        "I. Tax": 227484,
+        "EEC NPS": 28568
+      },
+      "perks": {},
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1939332,
+        "Ded us 80": 192852,
+        "Income": 1886933,
+        "I.Tax&Sur": 333554,
+        "Std Dedn": 50000,
+        "Tax Payab": 106070
+      },
+      "totals": {
+        "tot_earn": 132218.38,
+        "tot_dedn": 58588.38,
+        "net_pay": 73630
+      }
+    },
+    "October": {
+      "metadata": {
+        "file": "Oct-22.pdf",
+        "month": "October",
+        "year": "2022",
+        "serial_no": "6",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 13201.38,
+        "erc_cpf": 10925,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 23504,
+        "CMRE": 12620,
+        "Uniform Reimb": 45193.32,
+        "Coin Adjus": -0.38,
+        "Spl Field exdty-": 50000
+      },
+      "deductions": {
+        "CPF EEC": 10925,
+        "Income Tax": 25835,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2731.32,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "White goods Rent": 1115.12,
+        "Coin Adjus": 0.33
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 472780,
+        "Incentive": 172106,
+        "DA": 150143,
+        "CMRE": 75320,
+        "HRA": 42550,
+        "Other (T)": 234662,
+        "Other(NT)": 33600,
+        "Other Pay": 126968,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 88163
+      },
+      "ytd_deductions": {
+        "CPF": 74750,
+        "P. Tax": 1400,
+        "CSSS": 14000,
+        "Tot Incm": 1315597,
+        "WG Rent": 2230,
+        "Tax Incm": 1281997,
+        "Eec PRBS": 99141,
+        "Erc PRBS": 88163,
+        "I. Tax": 191512,
+        "EEC NPS": 24997
+      },
+      "perks": {},
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1898092,
+        "Ded us 80": 192852,
+        "Income": 1845693,
+        "I.Tax&Sur": 320687,
+        "Std Dedn": 50000,
+        "Tax Payab": 129175
+      },
+      "totals": {
+        "tot_earn": 227291.21,
+        "tot_dedn": 59021.21,
+        "net_pay": 168270
+      }
+    },
+    "September": {
+      "metadata": {
+        "file": "Sept-22.pdf",
+        "month": "September",
+        "year": "2022",
+        "serial_no": "7",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Assistant Executive Engineer ( Instrumen",
+        "unit": "CAMBAY SURFACE",
+        "position": "SUR-  MIS & MONITORING EX",
+        "pan": "HMVPS9491F",
+        "payscale": "60,000 -   180,000",
+        "payrate": 67540,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 12976.2,
+        "erc_cpf": 10739,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67540,
+        "Other Cafeteria": 16885,
+        "LFA Allowance-Ca": 6754,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6078.6,
+        "Variable DA": 21951,
+        "Arr. CMRE": 12620,
+        "CMRE": 12620,
+        "Interim/Adv. PRP": 172106.03,
+        "Coin Adjus": 0.33
+      },
+      "deductions": {
+        "CPF EEC": 10739,
+        "Income Tax": 73535,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2684.73,
+        "PRBS  Addl": 11493.44,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.46
+      },
+      "loans": {},
+      "ytd_earnings": {
+        "PAY": 405240,
+        "Incentive": 172106,
+        "DA": 126639,
+        "CMRE": 64500,
+        "HRA": 36471,
+        "Other (T)": 146306,
+        "Other(NT)": 31800,
+        "Other Pay": 81775,
+        "Prev.Yrs.": 7468,
+        "Erc PRBS": 74962
+      },
+      "ytd_deductions": {
+        "CPF": 63825,
+        "P. Tax": 1200,
+        "CSSS": 12000,
+        "Tot Incm": 1072306,
+        "WG Rent": 1115,
+        "Tax Incm": 1040506,
+        "Eec PRBS": 84917,
+        "Erc PRBS": 74962,
+        "I. Tax": 160685,
+        "EEC NPS": 21426
+      },
+      "perks": {},
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1766761,
+        "Ded us 80": 192852,
+        "Income": 1714362,
+        "I.Tax&Sur": 279712,
+        "Std Dedn": 50000,
+        "Tax Payab": 119027
+      },
+      "totals": {
+        "tot_earn": 315271.63,
+        "tot_dedn": 105873.63,
+        "net_pay": 209398
+      }
+    }
+  },
+  "2023-24": {
+    "April": {
+      "metadata": {
+        "file": "Apr-23.pdf",
+        "month": "April",
+        "year": "2023",
+        "serial_no": "13",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14308.02,
+        "erc_cpf": 11841,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 27016,
+        "CMRE": 12740,
+        "Maint charge WG": 21000,
+        "Uniform Reimb": 49712.67,
+        "Arr.Medical Reim": 10494,
+        "Coin Adjus": -0.49
+      },
+      "deductions": {
+        "CPF EEC": 11841,
+        "Income Tax": 21662,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2960.28,
+        "PRBS  Addl": 12999.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 462,
+        "White goods Rent": 1115.12,
+        "Coin Adjus": -0.03
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 725000,
+          "accrued_interest": 9791.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 71660,
+        "CMRE": 10940,
+        "DA": 27016,
+        "Other (T)": 55797,
+        "HRA": 6449,
+        "Other(NT)": 22800,
+        "Other Pay": 49712,
+        "Prev.Yrs.": 10494,
+        "Erc PRBS": 14308
+      },
+      "ytd_deductions": {
+        "CPF": 11841,
+        "P. Tax": 200,
+        "CSSS": 2000,
+        "HCMRS sch": 462,
+        "WG Rent": 1115,
+        "Tot Incm": 254869,
+        "Eec PRBS": 15960,
+        "Tax Incm": 232069,
+        "Erc PRBS": 14308,
+        "I. Tax": 21662,
+        "EEC NPS": 3571
+      },
+      "perks": {
+        "Int Loan": 26829
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1703393,
+        "Ded us 80": 192852,
+        "Income": 1650993,
+        "I.Tax&Sur": 259940,
+        "Std Dedn": 50000,
+        "Tax Payab": 238278
+      },
+      "totals": {
+        "tot_earn": 222869.25,
+        "tot_dedn": 64211.25,
+        "net_pay": 158658
+      }
+    },
+    "August": {
+      "metadata": {
+        "file": "Aug-23.pdf",
+        "month": "August",
+        "year": "2023",
+        "serial_no": "9",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14463.9,
+        "erc_cpf": 11970,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 28091,
+        "CMRE": 12350,
+        "Coin Adjus": 0.31
+      },
+      "deductions": {
+        "CPF EEC": 11970,
+        "Income Tax": 25009,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2992.53,
+        "PRBS  Addl": 12999.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": -0.03
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 700000,
+          "accrued_interest": 19333.34
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 358300,
+        "CMRE": 53140,
+        "DA": 137230,
+        "Other (T)": 177688,
+        "HRA": 32247,
+        "Other(NT)": 30000,
+        "Other Pay": 99425,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 71851
+      },
+      "ytd_deductions": {
+        "CPF": 59463,
+        "P. Tax": 1000,
+        "CSSS": 10000,
+        "HCMRS sch": 924,
+        "WG Rent": 1115,
+        "Tot Incm": 898573,
+        "Eec PRBS": 79865,
+        "Tax Incm": 868573,
+        "Erc PRBS": 71851,
+        "I. Tax": 121510,
+        "EEC NPS": 17855
+      },
+      "perks": {
+        "Int Loan": 26829
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1820789,
+        "Ded us 80": 192852,
+        "Income": 1768389,
+        "I.Tax&Sur": 296569,
+        "Std Dedn": 50000,
+        "Tax Payab": 175059
+      },
+      "totals": {
+        "tot_earn": 142348.38,
+        "tot_dedn": 66142.38,
+        "net_pay": 76206
+      }
+    },
+    "December": {
+      "metadata": {
+        "file": "Dec-23.pdf",
+        "month": "December",
+        "year": "2023",
+        "serial_no": "5",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14941.82,
+        "erc_cpf": 12366,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 31387,
+        "Arr. CMRE": 12350,
+        "CMRE": 12350,
+        "Medical  Reimb": 16198,
+        "Specs/Clens Reim": 18000,
+        "Coin Adjus": 0.36
+      },
+      "deductions": {
+        "CPF EEC": 12366,
+        "Income Tax": 35847,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3091.41,
+        "PRBS  Addl": 12370.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.14
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 675000,
+          "accrued_interest": 28541.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 644940,
+        "Incentive": 137414,
+        "DA": 259482,
+        "CMRE": 95340,
+        "HRA": 58044,
+        "Other (T)": 349636,
+        "Other(NT)": 37200,
+        "Other Pay": 149138,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 131141
+      },
+      "ytd_deductions": {
+        "CPF": 108531,
+        "P. Tax": 1800,
+        "CSSS": 18000,
+        "HCMRS sch": 1386,
+        "WG Rent": 2354,
+        "Tot Incm": 1741737,
+        "Eec PRBS": 141615,
+        "Tax Incm": 1704537,
+        "Erc PRBS": 131141,
+        "I. Tax": 291715,
+        "EEC NPS": 34655
+      },
+      "perks": {
+        "Int Loan": 34495
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2154314,
+        "Ded us 80": 197255,
+        "Income": 2101915,
+        "I.Tax&Sur": 399254,
+        "Std Dedn": 50000,
+        "Tax Payab": 107539
+      },
+      "totals": {
+        "tot_earn": 192192.43,
+        "tot_dedn": 77975.43,
+        "net_pay": 114217
+      }
+    },
+    "February": {
+      "metadata": {
+        "file": "Feb-24.pdf",
+        "month": "February",
+        "year": "2024",
+        "serial_no": "3",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15379.43,
+        "erc_cpf": 12728,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 18452.5,
+        "LFA Allowance-Ca": 7381,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6642.9,
+        "Variable DA": 32255,
+        "CMRE": 12350,
+        "PRP Payment": 137414.28,
+        "Arr.Car Insuranc": 23631,
+        "Coin Adjus": 0.13
+      },
+      "deductions": {
+        "CPF EEC": 12728,
+        "Income Tax": 91556,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3181.95,
+        "PRBS  Addl": 12370.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Rec Excess call:": 968.2,
+        "Coin Adjus": 0.45
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 662500,
+          "accrued_interest": 33020.84
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 792560,
+        "Incentive": 274828,
+        "DA": 323992,
+        "CMRE": 116440,
+        "HRA": 71330,
+        "Other (T)": 398736,
+        "Other(NT)": 40800,
+        "Other Pay": 222481,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 161900
+      },
+      "ytd_deductions": {
+        "CPF": 133987,
+        "P. Tax": 2200,
+        "CSSS": 22000,
+        "HCMRS sch": 1848,
+        "WG Rent": 2354,
+        "Tot Incm": 2251711,
+        "Eec PRBS": 172721,
+        "Tax Incm": 2210911,
+        "Erc PRBS": 161900,
+        "I. Tax": 426621,
+        "EEC NPS": 43055
+      },
+      "perks": {
+        "Int Loan": 34495
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2610194,
+        "Ded us 80": 197255,
+        "Income": 2557795,
+        "I.Tax&Sur": 541489,
+        "Std Dedn": 50000,
+        "Tax Payab": 48683
+      },
+      "totals": {
+        "tot_earn": 310653.48,
+        "tot_dedn": 134605.48,
+        "net_pay": 176048
+      }
+    },
+    "January": {
+      "metadata": {
+        "file": "Jan-24.pdf",
+        "month": "January",
+        "year": "2024",
+        "serial_no": "4",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15379.43,
+        "erc_cpf": 12728,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 18452.5,
+        "LFA Allowance-Ca": 7381,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6642.9,
+        "Variable DA": 32255,
+        "CMRE": 12350,
+        "Uniform Reimb": 49712.67,
+        "Coin Adjus": 0.45
+      },
+      "deductions": {
+        "CPF EEC": 12728,
+        "Income Tax": 43350,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3181.95,
+        "PRBS  Addl": 12370.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 462,
+        "Coin Adjus": 0.36
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 668750,
+          "accrued_interest": 30791.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 718750,
+        "Incentive": 137414,
+        "DA": 291737,
+        "CMRE": 105890,
+        "HRA": 64687,
+        "Other (T)": 374186,
+        "Other(NT)": 39000,
+        "Other Pay": 198850,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 146520
+      },
+      "ytd_deductions": {
+        "CPF": 121259,
+        "P. Tax": 2000,
+        "CSSS": 20000,
+        "HCMRS sch": 1848,
+        "WG Rent": 2354,
+        "Tot Incm": 1941058,
+        "Eec PRBS": 157168,
+        "Tax Incm": 1902058,
+        "Erc PRBS": 146520,
+        "I. Tax": 335065,
+        "EEC NPS": 38855
+      },
+      "perks": {
+        "Int Loan": 34495
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2226469,
+        "Ded us 80": 197255,
+        "Income": 2174069,
+        "I.Tax&Sur": 421766,
+        "Std Dedn": 50000,
+        "Tax Payab": 86701
+      },
+      "totals": {
+        "tot_earn": 199321.19,
+        "tot_dedn": 85893.19,
+        "net_pay": 113428
+      }
+    },
+    "July": {
+      "metadata": {
+        "file": "July-23.pdf",
+        "month": "July",
+        "year": "2023",
+        "serial_no": "10",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14463.9,
+        "erc_cpf": 11970,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 28091,
+        "CMRE": 12350,
+        "Uniform Reimb": 49712.67,
+        "Coin Adjus": -0.03
+      },
+      "deductions": {
+        "CPF EEC": 11970,
+        "Income Tax": 24597,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2992.53,
+        "PRBS  Addl": 12999.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 462,
+        "Coin Adjus": 0.3
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 706250,
+          "accrued_interest": 16979.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 286640,
+        "CMRE": 42590,
+        "DA": 109139,
+        "Other (T)": 153890,
+        "HRA": 25797,
+        "Other(NT)": 28200,
+        "Other Pay": 99425,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 57387
+      },
+      "ytd_deductions": {
+        "CPF": 47493,
+        "P. Tax": 800,
+        "CSSS": 8000,
+        "HCMRS sch": 924,
+        "WG Rent": 1115,
+        "Tot Incm": 756225,
+        "Eec PRBS": 63872,
+        "Tax Incm": 728025,
+        "Erc PRBS": 57387,
+        "I. Tax": 96501,
+        "EEC NPS": 14284
+      },
+      "perks": {
+        "Int Loan": 26829
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1810239,
+        "Ded us 80": 192852,
+        "Income": 1757839,
+        "I.Tax&Sur": 293277,
+        "Std Dedn": 50000,
+        "Tax Payab": 196776
+      },
+      "totals": {
+        "tot_earn": 192060.71,
+        "tot_dedn": 66192.71,
+        "net_pay": 125868
+      }
+    },
+    "June": {
+      "metadata": {
+        "file": "June-23.pdf",
+        "month": "June",
+        "year": "2023",
+        "serial_no": "11",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14308.02,
+        "erc_cpf": 11841,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 27016,
+        "Arr. CMRE": 12350,
+        "CMRE": 12350,
+        "Coin Adjus": 0.3
+      },
+      "deductions": {
+        "CPF EEC": 11841,
+        "Income Tax": 23283,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2960.28,
+        "PRBS  Addl": 12999.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.21
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 712500,
+          "accrued_interest": 14604.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 214980,
+        "CMRE": 32040,
+        "DA": 81048,
+        "Other (T)": 130093,
+        "HRA": 19348,
+        "Other(NT)": 26400,
+        "Other Pay": 49712,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 42924
+      },
+      "ytd_deductions": {
+        "CPF": 35523,
+        "P. Tax": 600,
+        "CSSS": 6000,
+        "HCMRS sch": 462,
+        "WG Rent": 1115,
+        "Tot Incm": 564164,
+        "Eec PRBS": 47880,
+        "Tax Incm": 537764,
+        "Erc PRBS": 42924,
+        "I. Tax": 71904,
+        "EEC NPS": 10713
+      },
+      "perks": {
+        "Int Loan": 26829
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1772341,
+        "Ded us 80": 192852,
+        "Income": 1719942,
+        "I.Tax&Sur": 281453,
+        "Std Dedn": 50000,
+        "Tax Payab": 209549
+      },
+      "totals": {
+        "tot_earn": 153623.37,
+        "tot_dedn": 64755.37,
+        "net_pay": 88868
+      }
+    },
+    "March": {
+      "metadata": {
+        "file": "Mar-24.pdf",
+        "month": "March",
+        "year": "2024",
+        "serial_no": "2",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15379.43,
+        "erc_cpf": 12728,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 18452.5,
+        "LFA Allowance-Ca": 7381,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6642.9,
+        "Variable DA": 32255,
+        "CMRE": 12350,
+        "Medical  Reimb": 19313,
+        "Coin Adjus": -0.11
+      },
+      "deductions": {
+        "CPF EEC": 12728,
+        "Income Tax": 60077.44,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3181.95,
+        "PRBS  Addl": 12370.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": -0.31
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 656250,
+          "accrued_interest": 35229.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 866370,
+        "Incentive": 274828,
+        "DA": 356247,
+        "CMRE": 126990,
+        "HRA": 77973,
+        "Other (T)": 442599,
+        "Other(NT)": 42600,
+        "Other Pay": 222481,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 177279
+      },
+      "ytd_deductions": {
+        "CPF": 146715,
+        "P. Tax": 2400,
+        "CSSS": 24000,
+        "HCMRS sch": 1848,
+        "WG Rent": 2354,
+        "Tot Incm": 2420632,
+        "Eec PRBS": 188274,
+        "Tax Incm": 2378032,
+        "Erc PRBS": 177279,
+        "I. Tax": 486698,
+        "EEC NPS": 47255
+      },
+      "perks": {
+        "Int Loan": 34495,
+        "Asset Tra": 6651
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2646709,
+        "Ded us 80": 197255,
+        "Income": 2594310,
+        "I.Tax&Sur": 552883,
+        "Std Dedn": 50000
+      },
+      "totals": {
+        "tot_earn": 168920.96,
+        "tot_dedn": 102657.96,
+        "net_pay": 66263
+      }
+    },
+    "May": {
+      "metadata": {
+        "file": "May-23.pdf",
+        "month": "May",
+        "year": "2023",
+        "serial_no": "12",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14308.02,
+        "erc_cpf": 11841,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 27016,
+        "Medical  Reimb": 10700,
+        "Coin Adjus": 0.21
+      },
+      "deductions": {
+        "CPF EEC": 11841,
+        "Income Tax": 21967,
+        "Prof Tax": 200,
+        "NPS EEC": 3571,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2960.28,
+        "PRBS  Addl": 12999.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Arr.Bach Acc Rec": -48.39,
+        "Coin Adjus": -0.49
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 718750,
+          "accrued_interest": 12208.34
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 143320,
+        "CMRE": 10940,
+        "DA": 54032,
+        "Other (T)": 106295,
+        "HRA": 12898,
+        "Other(NT)": 22800,
+        "Other Pay": 49712,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 28616
+      },
+      "ytd_deductions": {
+        "CPF": 23682,
+        "P. Tax": 400,
+        "CSSS": 4000,
+        "HCMRS sch": 462,
+        "WG Rent": 1115,
+        "Tot Incm": 410541,
+        "Eec PRBS": 31920,
+        "Tax Incm": 387741,
+        "Erc PRBS": 28616,
+        "I. Tax": 48621,
+        "EEC NPS": 7142
+      },
+      "perks": {
+        "Int Loan": 26829
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1730141,
+        "Ded us 80": 192852,
+        "Income": 1677742,
+        "I.Tax&Sur": 268286,
+        "Std Dedn": 50000,
+        "Tax Payab": 219665
+      },
+      "totals": {
+        "tot_earn": 139623.28,
+        "tot_dedn": 62890.28,
+        "net_pay": 76733
+      }
+    },
+    "November": {
+      "metadata": {
+        "file": "Nov-23.pdf",
+        "month": "November",
+        "year": "2023",
+        "serial_no": "6",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14941.82,
+        "erc_cpf": 12366,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 31387,
+        "Medical  Reimb": 15918,
+        "Coin Adjus": 0.14
+      },
+      "deductions": {
+        "CPF EEC": 12366,
+        "Income Tax": 31533,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3091.41,
+        "PRBS  Addl": 12370.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": -0.08
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 681250,
+          "accrued_interest": 26270.84
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 573280,
+        "Incentive": 137414,
+        "DA": 228095,
+        "CMRE": 74240,
+        "HRA": 51595,
+        "Other (T)": 291640,
+        "Other(NT)": 33600,
+        "Other Pay": 149138,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 116199
+      },
+      "ytd_deductions": {
+        "CPF": 96165,
+        "P. Tax": 1600,
+        "CSSS": 16000,
+        "HCMRS sch": 1386,
+        "WG Rent": 2354,
+        "Tot Incm": 1549545,
+        "Eec PRBS": 126153,
+        "Tax Incm": 1515945,
+        "Erc PRBS": 116199,
+        "I. Tax": 255868,
+        "EEC NPS": 30455
+      },
+      "perks": {
+        "Int Loan": 34495
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2099016,
+        "Ded us 80": 197255,
+        "Income": 2046617,
+        "I.Tax&Sur": 382001,
+        "Std Dedn": 50000,
+        "Tax Payab": 126133
+      },
+      "totals": {
+        "tot_earn": 149212.21,
+        "tot_dedn": 73161.21,
+        "net_pay": 76051
+      }
+    },
+    "October": {
+      "metadata": {
+        "file": "Oct-23.pdf",
+        "month": "October",
+        "year": "2023",
+        "serial_no": "7",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14941.82,
+        "erc_cpf": 12366,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 31387,
+        "CMRE": 12350,
+        "Uniform Reimb": 49712.67,
+        "Coin Adjus": 0.2
+      },
+      "deductions": {
+        "CPF EEC": 12366,
+        "Income Tax": 30540,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3091.41,
+        "PRBS  Addl": 12370.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 462,
+        "White goods Rent": 1239,
+        "Coin Adjus": -0.35
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 687500,
+          "accrued_interest": 23979.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 501620,
+        "Incentive": 137414,
+        "DA": 196708,
+        "CMRE": 74240,
+        "HRA": 45145,
+        "Other (T)": 240924,
+        "Other(NT)": 33600,
+        "Other Pay": 149138,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 101257
+      },
+      "ytd_deductions": {
+        "CPF": 83799,
+        "P. Tax": 1400,
+        "CSSS": 14000,
+        "HCMRS sch": 1386,
+        "WG Rent": 2354,
+        "Tot Incm": 1389333,
+        "Eec PRBS": 110691,
+        "Tax Incm": 1355733,
+        "Erc PRBS": 101257,
+        "I. Tax": 220903,
+        "EEC NPS": 26255
+      },
+      "perks": {
+        "Int Loan": 34495
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2072098,
+        "Ded us 80": 197255,
+        "Income": 2019699,
+        "I.Tax&Sur": 373603,
+        "Std Dedn": 50000,
+        "Tax Payab": 152700
+      },
+      "totals": {
+        "tot_earn": 195356.94,
+        "tot_dedn": 73868.94,
+        "net_pay": 121488
+      }
+    },
+    "September": {
+      "metadata": {
+        "file": "Sept-23.pdf",
+        "month": "September",
+        "year": "2023",
+        "serial_no": "8",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 71660,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14463.9,
+        "erc_cpf": 11970,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 71660,
+        "Other Cafeteria": 17915,
+        "LFA Allowance-Ca": 7166,
+        "WG value adjust-": -1283.33,
+        "House Rent Allow": 6449.4,
+        "Variable DA": 28091,
+        "CMRE": 12350,
+        "Arr.Medical Reim": 15641,
+        "Coin Adjus": -0.35
+      },
+      "deductions": {
+        "CPF EEC": 11970,
+        "Income Tax": 25980,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2992.53,
+        "PRBS  Addl": 12370.88,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.31
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 693750,
+          "accrued_interest": 21666.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 429960,
+        "CMRE": 63690,
+        "DA": 165321,
+        "Other (T)": 217127,
+        "HRA": 38696,
+        "Other(NT)": 31800,
+        "Other Pay": 99425,
+        "Prev.Yrs.": 10542,
+        "Erc PRBS": 86315
+      },
+      "ytd_deductions": {
+        "CPF": 71433,
+        "P. Tax": 1200,
+        "CSSS": 12000,
+        "HCMRS sch": 924,
+        "WG Rent": 1115,
+        "Tot Incm": 1056562,
+        "Eec PRBS": 95228,
+        "Tax Incm": 1024762,
+        "Erc PRBS": 86315,
+        "I. Tax": 147490,
+        "EEC NPS": 22055
+      },
+      "perks": {
+        "Int Loan": 26829
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1846980,
+        "Ded us 80": 197255,
+        "Income": 1794580,
+        "I.Tax&Sur": 303367,
+        "Std Dedn": 50000,
+        "Tax Payab": 155877
+      },
+      "totals": {
+        "tot_earn": 157988.72,
+        "tot_dedn": 67613.72,
+        "net_pay": 90375
+      }
+    }
+  },
+  "2024-25": {
+    "April": {
+      "metadata": {
+        "file": "Apr-24.pdf",
+        "month": "April",
+        "year": "2024",
+        "serial_no": "12",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "EA to Asset Manager",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15379.43,
+        "erc_cpf": 12728,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "House Rent Allow": 6642.9,
+        "Variable DA": 32255,
+        "CMRE": 12350,
+        "Maint charge WG": 19967.21,
+        "Uniform Reimb": 54683.94,
+        "Coin Adjus": 0.46
+      },
+      "deductions": {
+        "CPF EEC": 12728,
+        "Income Tax": 22909,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3181.95,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 432,
+        "WG GST Recovery": 6519.2,
+        "Coin Adjus": -0.11
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 650000,
+          "accrued_interest": 37416.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 73810,
+        "CMRE": 10550,
+        "DA": 32255,
+        "Other (T)": 25833,
+        "HRA": 6642,
+        "Other(NT)": 21767,
+        "Other Pay": 54683,
+        "Erc PRBS": 15379
+      },
+      "ytd_deductions": {
+        "CPF": 12728,
+        "P. Tax": 200,
+        "CSSS": 2000,
+        "HCMRS sch": 432,
+        "Eec PRBS": 17209,
+        "Tot Incm": 225542,
+        "Erc PRBS": 15379,
+        "Tax Incm": 203775,
+        "I. Tax": 22909,
+        "EEC NPS": 4200
+      },
+      "perks": {
+        "Int Loan": 30782
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1758513,
+        "Ded us 80": 200000,
+        "Income": 1706114,
+        "I.Tax&Sur": 274908,
+        "Std Dedn": 50000,
+        "Tax Payab": 251999
+      },
+      "totals": {
+        "tot_earn": 225543.01,
+        "tot_dedn": 73598.01,
+        "net_pay": 151945
+      }
+    },
+    "August": {
+      "metadata": {
+        "file": "Aug-24.pdf",
+        "month": "August",
+        "year": "2024",
+        "serial_no": "8",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15497.17,
+        "erc_cpf": 12825,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "WG value adjust-": -1906.67,
+        "House Rent Allow": 6642.9,
+        "Variable DA": 33067,
+        "CMRE": 12330,
+        "Coin Adjus": -0.31
+      },
+      "deductions": {
+        "CPF EEC": 12825,
+        "Income Tax": 25352,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3206.31,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": 0.14
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 625000,
+          "accrued_interest": 45958.34
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 363097,
+        "CMRE": 52670,
+        "DA": 161561,
+        "Other (T)": 156207,
+        "HRA": 33214,
+        "Other(NT)": 28967,
+        "Other Pay": 109367,
+        "Erc PRBS": 76075
+      },
+      "ytd_deductions": {
+        "CPF": 62959,
+        "P. Tax": 1000,
+        "CSSS": 10000,
+        "HCMRS sch": 864,
+        "WG Rent": 1227,
+        "Tot Incm": 905086,
+        "Eec PRBS": 85879,
+        "Tax Incm": 876119,
+        "Erc PRBS": 76075,
+        "I. Tax": 122034,
+        "EEC NPS": 21000
+      },
+      "perks": {
+        "Int Loan": 30782
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1837332,
+        "Ded us 80": 200000,
+        "Income": 1784932,
+        "I.Tax&Sur": 299499,
+        "Std Dedn": 50000,
+        "Tax Payab": 177465
+      },
+      "totals": {
+        "tot_earn": 149776.42,
+        "tot_dedn": 69211.42,
+        "net_pay": 80565
+      }
+    },
+    "December": {
+      "metadata": {
+        "file": "Dec-24.pdf",
+        "month": "December",
+        "year": "2024",
+        "serial_no": "4",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15807.47,
+        "erc_cpf": 13082,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 35207,
+        "Coin Adjus": 0.47
+      },
+      "deductions": {
+        "CPF EEC": 13082,
+        "Income Tax": 29506,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3270.51,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "WDV Laptop Rec A": 2200,
+        "WDV/REC Mobile H": 500,
+        "Laptop GST recov": 396,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": -0.18
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 600000,
+          "accrued_interest": 54166.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 658337,
+        "Incentive": 117555,
+        "DA": 300249,
+        "CMRE": 84095,
+        "HRA": 39857,
+        "Other (T)": 316889,
+        "Other(NT)": 34367,
+        "Other Pay": 164051,
+        "Erc PRBS": 138995
+      },
+      "ytd_deductions": {
+        "CPF": 115030,
+        "P. Tax": 1800,
+        "CSSS": 18000,
+        "HCMRS sch": 1296,
+        "WG Rent": 3068,
+        "Tot Incm": 1715403,
+        "Eec PRBS": 155009,
+        "Tax Incm": 1681035,
+        "Erc PRBS": 138995,
+        "I. Tax": 283913,
+        "EEC NPS": 37800
+      },
+      "perks": {
+        "Int Loan": 30782,
+        "Asset Tra": 23550
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2071078,
+        "Ded us 80": 200000,
+        "Income": 2018679,
+        "I.Tax&Sur": 372429,
+        "Std Dedn": 50000,
+        "Tax Payab": 88516
+      },
+      "totals": {
+        "tot_earn": 132944.3,
+        "tot_dedn": 77282.3,
+        "net_pay": 55662
+      }
+    },
+    "February": {
+      "metadata": {
+        "file": "Feb-25.pdf",
+        "month": "February",
+        "year": "2025",
+        "serial_no": "1",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 16492.45,
+        "erc_cpf": 13649,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 15206,
+        "LFA Allowance-Ca": 11404.5,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 37711,
+        "Arr.Car Insuranc": 18925,
+        "Coin Adjus": -0.31
+      },
+      "deductions": {
+        "CPF EEC": 13649,
+        "Income Tax": 39861,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3412.23,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": 0.32
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 587500,
+          "accrued_interest": 58145.84
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 810397,
+        "Incentive": 235111,
+        "DA": 375671,
+        "CMRE": 84095,
+        "HRA": 39857,
+        "Other (T)": 397696,
+        "Other(NT)": 43367,
+        "Other Pay": 237660,
+        "Erc PRBS": 171980
+      },
+      "ytd_deductions": {
+        "CPF": 142328,
+        "P. Tax": 2200,
+        "CSSS": 22000,
+        "HCMRS sch": 1728,
+        "WG Rent": 3068,
+        "Tot Incm": 2223857,
+        "Eec PRBS": 189889,
+        "Tax Incm": 2180490,
+        "Erc PRBS": 171980,
+        "I. Tax": 407157,
+        "EEC NPS": 46200
+      },
+      "perks": {
+        "Int Loan": 30782,
+        "Asset Tra": 23550
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2310146,
+        "Ded us 80": 200000,
+        "Income": 2257746,
+        "I.Tax&Sur": 447018,
+        "Std Dedn": 50000,
+        "Tax Payab": 39861
+      },
+      "totals": {
+        "tot_earn": 157369.52,
+        "tot_dedn": 84750.52,
+        "net_pay": 72619
+      }
+    },
+    "January": {
+      "metadata": {
+        "file": "Jan-25.pdf",
+        "month": "January",
+        "year": "2025",
+        "serial_no": "2",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 16492.45,
+        "erc_cpf": 13649,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 15206,
+        "LFA Allowance-Ca": 11404.5,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 37711,
+        "PRP Payment": 117555.58,
+        "Uniform Reimb": 54683.94,
+        "Coin Adjus": 0.32
+      },
+      "deductions": {
+        "CPF EEC": 13649,
+        "Income Tax": 73586,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3412.23,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 432,
+        "Coin Adjus": 0.47
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 593750,
+          "accrued_interest": 56166.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 734367,
+        "Incentive": 235111,
+        "DA": 337960,
+        "CMRE": 84095,
+        "HRA": 39857,
+        "Other (T)": 356992,
+        "Other(NT)": 43367,
+        "Other Pay": 218735,
+        "Erc PRBS": 155487
+      },
+      "ytd_deductions": {
+        "CPF": 128679,
+        "P. Tax": 2000,
+        "CSSS": 20000,
+        "HCMRS sch": 1728,
+        "WG Rent": 3068,
+        "Tot Incm": 2050487,
+        "Eec PRBS": 172449,
+        "Tax Incm": 2007120,
+        "Erc PRBS": 155487,
+        "I. Tax": 362304,
+        "EEC NPS": 42000
+      },
+      "perks": {
+        "Int Loan": 30782,
+        "Asset Tra": 23550
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2275221,
+        "Ded us 80": 200000,
+        "Income": 2222821,
+        "I.Tax&Sur": 436121,
+        "Std Dedn": 50000,
+        "Tax Payab": 73817
+      },
+      "totals": {
+        "tot_earn": 310684.67,
+        "tot_dedn": 118907.67,
+        "net_pay": 191777
+      }
+    },
+    "July": {
+      "metadata": {
+        "file": "July-24.pdf",
+        "month": "July",
+        "year": "2024",
+        "serial_no": "9",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "ANKL EPS- INSTT EXE",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 14247.4,
+        "erc_cpf": 11791,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 67857.58,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "WG value adjust-": -1906.67,
+        "House Rent Allow": 6642.9,
+        "Variable DA": 30400.31,
+        "CMRE": 12330,
+        "Uniform Reimb": 54683.94,
+        "Medical  Reimb": 17117,
+        "Coin Adjus": 0.14
+      },
+      "deductions": {
+        "CPF EEC": 11791,
+        "Income Tax": 22663,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 2947.74,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 432,
+        "Coin Adjus": -0.01
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 631250,
+          "accrued_interest": 43854.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 289287,
+        "CMRE": 42140,
+        "DA": 128494,
+        "Other (T)": 114730,
+        "HRA": 26571,
+        "Other(NT)": 27167,
+        "Other Pay": 109367,
+        "Erc PRBS": 60578
+      },
+      "ytd_deductions": {
+        "CPF": 50134,
+        "P. Tax": 800,
+        "CSSS": 8000,
+        "HCMRS sch": 864,
+        "WG Rent": 1227,
+        "Tot Incm": 737759,
+        "Eec PRBS": 68645,
+        "Tax Incm": 710592,
+        "Erc PRBS": 60578,
+        "I. Tax": 91206,
+        "EEC NPS": 16800
+      },
+      "perks": {
+        "Int Loan": 30782
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1750829,
+        "Ded us 80": 200000,
+        "Income": 1698430,
+        "I.Tax&Sur": 272511,
+        "Std Dedn": 50000,
+        "Tax Payab": 181305
+      },
+      "totals": {
+        "tot_earn": 212958.7,
+        "tot_dedn": 65661.7,
+        "net_pay": 147297
+      }
+    },
+    "June": {
+      "metadata": {
+        "file": "June-24.pdf",
+        "month": "June",
+        "year": "2024",
+        "serial_no": "10",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "ANKL EPS- INSTT EXE",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15572.12,
+        "erc_cpf": 12887,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "WG value adjust-": -1906.67,
+        "Arr.WG value adj": -1906.67,
+        "House Rent Allow": 6642.9,
+        "Arr.Variable DA": 886,
+        "Variable DA": 32698,
+        "CMRE": 12330,
+        "Coin Adjus": -0.01
+      },
+      "deductions": {
+        "CPF EEC": 12887,
+        "Income Tax": 23024,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3221.82,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "White goods Rent": 1227.2,
+        "ArrRec Excess ca": 1366.08,
+        "Coin Adjus": -0.02
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 637500,
+          "accrued_interest": 41729.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 221430,
+        "CMRE": 31610,
+        "DA": 98094,
+        "Other (T)": 73687,
+        "HRA": 19928,
+        "Other(NT)": 25367,
+        "Other Pay": 54683,
+        "Erc PRBS": 46330
+      },
+      "ytd_deductions": {
+        "CPF": 38343,
+        "P. Tax": 600,
+        "CSSS": 6000,
+        "HCMRS sch": 432,
+        "WG Rent": 1227,
+        "Tot Incm": 524801,
+        "Eec PRBS": 51669,
+        "Tax Incm": 499433,
+        "Erc PRBS": 46330,
+        "I. Tax": 68543,
+        "EEC NPS": 12600
+      },
+      "perks": {
+        "Int Loan": 30782
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1753279,
+        "Ded us 80": 200000,
+        "Income": 1700880,
+        "I.Tax&Sur": 273275,
+        "Std Dedn": 50000,
+        "Tax Payab": 204732
+      },
+      "totals": {
+        "tot_earn": 148387.05,
+        "tot_dedn": 70054.05,
+        "net_pay": 78333
+      }
+    },
+    "March": {
+      "metadata": {
+        "file": "Mar-25.pdf",
+        "month": "March",
+        "year": "2025",
+        "serial_no": "1",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 16492.45,
+        "erc_cpf": 13649,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 15206,
+        "LFA Allowance-Ca": 11404.5,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 37711,
+        "Coin Adjus": -0.1
+      },
+      "deductions": {
+        "CPF EEC": 13649,
+        "Income Tax": 39861,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3412.23,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "Rec Excess call:": 3561.84,
+        "Coin Adjus": -0.31
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 581250,
+          "accrued_interest": 60104.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 886427,
+        "Incentive": 235111,
+        "DA": 413382,
+        "CMRE": 84095,
+        "HRA": 39857,
+        "Other (T)": 438400,
+        "Other(NT)": 43367,
+        "Other Pay": 237660,
+        "Erc PRBS": 188472
+      },
+      "ytd_deductions": {
+        "CPF": 155977,
+        "P. Tax": 2400,
+        "CSSS": 24000,
+        "HCMRS sch": 1728,
+        "WG Rent": 3068,
+        "Tot Incm": 2378302,
+        "Eec PRBS": 207329,
+        "Tax Incm": 2334934,
+        "Erc PRBS": 188472,
+        "I. Tax": 452010,
+        "EEC NPS": 50400
+      },
+      "perks": {
+        "Int Loan": 30782,
+        "Asset Tra": 23550
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2326146,
+        "Ded us 80": 200000,
+        "Income": 2273746,
+        "I.Tax&Sur": 452010,
+        "Std Dedn": 50000
+      },
+      "totals": {
+        "tot_earn": 138444.73,
+        "tot_dedn": 88811.73,
+        "net_pay": 49633
+      }
+    },
+    "May": {
+      "metadata": {
+        "file": "May-24.pdf",
+        "month": "May",
+        "year": "2024",
+        "serial_no": "11",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY ASSET",
+        "position": "ANKL EPS- INSTT EXE",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15379.43,
+        "erc_cpf": 12728,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "House Rent Allow": 6642.9,
+        "Variable DA": 32255,
+        "CMRE": 12330,
+        "Coin Adjus": -0.02
+      },
+      "deductions": {
+        "CPF EEC": 12728,
+        "Income Tax": 22610,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3181.95,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": 0.46
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 643750,
+          "accrued_interest": 39583.34
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 147620,
+        "CMRE": 21080,
+        "DA": 64510,
+        "Other (T)": 51667,
+        "HRA": 13285,
+        "Other(NT)": 23567,
+        "Other Pay": 54683,
+        "Erc PRBS": 30758
+      },
+      "ytd_deductions": {
+        "CPF": 25456,
+        "P. Tax": 400,
+        "CSSS": 4000,
+        "HCMRS sch": 432,
+        "Eec PRBS": 34419,
+        "Tot Incm": 376413,
+        "Erc PRBS": 30758,
+        "Tax Incm": 352846,
+        "I. Tax": 45519,
+        "EEC NPS": 8400
+      },
+      "perks": {
+        "Int Loan": 30782
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1747963,
+        "Ded us 80": 200000,
+        "Income": 1695564,
+        "I.Tax&Sur": 271616,
+        "Std Dedn": 50000,
+        "Tax Payab": 226097
+      },
+      "totals": {
+        "tot_earn": 150871.38,
+        "tot_dedn": 66348.38,
+        "net_pay": 84523
+      }
+    },
+    "November": {
+      "metadata": {
+        "file": "Nov-24.pdf",
+        "month": "November",
+        "year": "2024",
+        "serial_no": "5",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15807.47,
+        "erc_cpf": 13082,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 35207,
+        "CMRE": 12165,
+        "Coin Adjus": -0.18
+      },
+      "deductions": {
+        "CPF EEC": 13082,
+        "Income Tax": 27668,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3270.51,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "Coin Adjus": 0.17
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 606250,
+          "accrued_interest": 52145.84
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 584527,
+        "Incentive": 117555,
+        "DA": 265042,
+        "CMRE": 84095,
+        "HRA": 39857,
+        "Other (T)": 280612,
+        "Other(NT)": 34367,
+        "Other Pay": 164051,
+        "Erc PRBS": 123187
+      },
+      "ytd_deductions": {
+        "CPF": 101948,
+        "P. Tax": 1600,
+        "CSSS": 16000,
+        "HCMRS sch": 1296,
+        "WG Rent": 3068,
+        "Tot Incm": 1570109,
+        "Eec PRBS": 137710,
+        "Tax Incm": 1535742,
+        "Erc PRBS": 123187,
+        "I. Tax": 250554,
+        "EEC NPS": 33600
+      },
+      "perks": {
+        "Int Loan": 30782
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2035178,
+        "Ded us 80": 200000,
+        "Income": 1982779,
+        "I.Tax&Sur": 361228,
+        "Std Dedn": 50000,
+        "Tax Payab": 110674
+      },
+      "totals": {
+        "tot_earn": 145108.65,
+        "tot_dedn": 71848.65,
+        "net_pay": 73260
+      }
+    },
+    "October": {
+      "metadata": {
+        "file": "Oct-24.pdf",
+        "month": "October",
+        "year": "2024",
+        "serial_no": "6",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15807.47,
+        "erc_cpf": 13082,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 35207,
+        "CMRE": 12330,
+        "Uniform Reimb": 54683.94,
+        "Medical  Reimb": 16874,
+        "Coin Adjus": -0.25
+      },
+      "deductions": {
+        "CPF EEC": 13082,
+        "Income Tax": 27669,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3270.51,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 432,
+        "White goods Rent": 1840.8,
+        "Coin Adjus": 0.24
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 612500,
+          "accrued_interest": 50104.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 510717,
+        "Incentive": 117555,
+        "DA": 229835,
+        "CMRE": 73730,
+        "HRA": 39857,
+        "Other (T)": 245635,
+        "Other(NT)": 32567,
+        "Other Pay": 164051,
+        "Erc PRBS": 107380
+      },
+      "ytd_deductions": {
+        "CPF": 88866,
+        "P. Tax": 1400,
+        "CSSS": 14000,
+        "HCMRS sch": 1296,
+        "WG Rent": 3068,
+        "Tot Incm": 1413950,
+        "Eec PRBS": 120412,
+        "Tax Incm": 1381383,
+        "Erc PRBS": 107380,
+        "I. Tax": 219438,
+        "EEC NPS": 29400
+      },
+      "perks": {
+        "Int Loan": 30782
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2024128,
+        "Ded us 80": 200000,
+        "Income": 1971729,
+        "I.Tax&Sur": 357780,
+        "Std Dedn": 50000,
+        "Tax Payab": 138342
+      },
+      "totals": {
+        "tot_earn": 216831.52,
+        "tot_dedn": 74122.52,
+        "net_pay": 142709
+      }
+    },
+    "September": {
+      "metadata": {
+        "file": "Sept-24.pdf",
+        "month": "September",
+        "year": "2024",
+        "serial_no": "7",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 73810,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 15497.17,
+        "erc_cpf": 12825,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 73810,
+        "Other Cafeteria": 14762,
+        "LFA Allowance-Ca": 11071.5,
+        "WG value adjust-": -1906.67,
+        "House Rent Allow": 6642.9,
+        "Variable DA": 33067,
+        "CMRE": 12330,
+        "Coin Adjus": 0.24
+      },
+      "deductions": {
+        "CPF EEC": 12825,
+        "Income Tax": 25352,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3206.31,
+        "PRBS  Addl": 14027.97,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": -0.31
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 618750,
+          "accrued_interest": 48041.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 436907,
+        "CMRE": 63200,
+        "DA": 194628,
+        "Other (T)": 192484,
+        "HRA": 39857,
+        "Other(NT)": 30767,
+        "Other Pay": 109367,
+        "Erc PRBS": 91572
+      },
+      "ytd_deductions": {
+        "CPF": 75784,
+        "P. Tax": 1200,
+        "CSSS": 12000,
+        "HCMRS sch": 864,
+        "WG Rent": 1227,
+        "Tot Incm": 1067213,
+        "Eec PRBS": 103113,
+        "Tax Incm": 1036445,
+        "Erc PRBS": 91572,
+        "I. Tax": 151239,
+        "EEC NPS": 25200
+      },
+      "perks": {
+        "Int Loan": 30782
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1849682,
+        "Ded us 80": 200000,
+        "Income": 1797282,
+        "I.Tax&Sur": 303352,
+        "Std Dedn": 50000,
+        "Tax Payab": 152113
+      },
+      "totals": {
+        "tot_earn": 149776.97,
+        "tot_dedn": 69710.97,
+        "net_pay": 80066
+      }
+    }
+  },
+  "2025-26": {
+    "April": {
+      "metadata": {
+        "file": "Apr-2025.pdf",
+        "month": "April",
+        "year": "2025",
+        "serial_no": "15",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CAMBAY SURFACE",
+        "position": "INSTT EXE  EPS ANKL",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 16393.27,
+        "erc_cpf": 13567,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 19007.5,
+        "LFA Allowance-Ca": 7603,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 37027,
+        "Maint charge WG": 58232.88,
+        "Uniform Reimb": 60152.31,
+        "Arr.Medical Reim": 23598,
+        "Coin Adjus": 0.16
+      },
+      "deductions": {
+        "CPF EEC": 13567,
+        "Income Tax": 12548,
+        "Prof Tax": 200,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3391.71,
+        "PRBS  Addl": 15850.77,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "Officers' Club": 100,
+        "HCMRS Ins Scheme": 401,
+        "White goods Rent": 1840.8,
+        "Coin Adjus": -0.1
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 575000,
+          "accrued_interest": 62041.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 76030,
+        "Other (T)": 36803,
+        "DA": 37027,
+        "Other(NT)": 58232,
+        "Other Pay": 60152,
+        "Prev.Yrs.": 23598,
+        "Erc PRBS": 16393
+      },
+      "ytd_deductions": {
+        "CPF": 13567,
+        "P. Tax": 200,
+        "CSSS": 2000,
+        "HCMRS sch": 401,
+        "WG Rent": 1840,
+        "Tot Incm": 291844,
+        "Eec PRBS": 19242,
+        "Tax Incm": 233611,
+        "Erc PRBS": 16393,
+        "I. Tax": 12548,
+        "EEC NPS": 4200
+      },
+      "perks": {
+        "Int Loan": 27070
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1798930,
+        "I.Tax&Sur": 150578,
+        "Income": 1723931,
+        "Tax Payab": 138030,
+        "Std Dedn": 75000
+      },
+      "totals": {
+        "tot_earn": 279744.18,
+        "tot_dedn": 61399.18,
+        "net_pay": 218345
+      }
+    },
+    "August": {
+      "metadata": {
+        "file": "Aug-2025.pdf",
+        "month": "August",
+        "year": "2025",
+        "serial_no": "11",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 16426.33,
+        "erc_cpf": 13594,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 19007.5,
+        "LFA Allowance-Ca": 7603,
+        "Cafeteria Adj-HP": -729.78,
+        "WG value adjust-": -1906.67,
+        "Arr.HR Allowance": -77392.8,
+        "Variable DA": 37255,
+        "Arr. Incnt. for": 29272.84,
+        "Coin Adjus": 0.02
+      },
+      "deductions": {
+        "CPF EEC": 13594,
+        "Income Tax": 15197,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -1459.55,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3398.55,
+        "PRBS  Addl": 15850.77,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "HRR incl retro": 320,
+        "Coin Adjus": 0.34
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 550000,
+          "accrued_interest": 69583.34
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 380149,
+        "Other (T)": 233933,
+        "DA": 185591,
+        "Other(NT)": 58232,
+        "HRA": 13243,
+        "Other Pay": 120304,
+        "Prev.Yrs.": -73124,
+        "Erc PRBS": 82032
+      },
+      "ytd_deductions": {
+        "CPF": 67889,
+        "P. Tax": 975,
+        "CSSS": 10000,
+        "HCMRS sch": 802,
+        "WG Rent": 1840,
+        "Tot Incm": 918331,
+        "HRR": 704,
+        "Tax Incm": 860098,
+        "Eec PRBS": 96226,
+        "Erc PRBS": 82032,
+        "I. Tax": 89378,
+        "EEC NPS": 21000,
+        "ITax-HPadj": 2927
+      },
+      "perks": {
+        "Housing": 136937,
+        "Int Loan": 27070
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2016115,
+        "I.Tax&Sur": 195753,
+        "Income": 1941116,
+        "Tax Payab": 106375,
+        "Std Dedn": 75000
+      },
+      "totals": {
+        "tot_earn": 89139.11,
+        "tot_dedn": 59601.11,
+        "net_pay": 29538
+      }
+    },
+    "December": {
+      "metadata": {
+        "file": "Dec-2025.pdf",
+        "month": "December",
+        "year": "2025",
+        "serial_no": "4",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 16158,
+        "erc_prbs": 577.03,
+        "erc_cpf": 13850,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 19007.5,
+        "LFA Allowance-Ca": 7603,
+        "Cafeteria Adj-HP": -1387.13,
+        "WG value adjust-": -1906.67,
+        "Arr.HR Allowance": 137178.9,
+        "Variable DA": 39384,
+        "Coin Adjus": 0.11
+      },
+      "deductions": {
+        "CPF EEC": 13850,
+        "Income Tax": 54558,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -2774.25,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3462.42,
+        "PRBS  Addl": 50.77,
+        "Arr.ASTO Member": 50,
+        "ASTO Rec": 50,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "HRR incl retro": 320,
+        "Arr.Penal Int. R": -2843.52,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.29
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 525000,
+          "accrued_interest": 76791.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 684269,
+        "Incentive": 121084,
+        "DA": 340998,
+        "Other (T)": 375876,
+        "HRA": 13243,
+        "Other(NT)": 58232,
+        "Other Pay": 180456,
+        "Prev.Yrs.": 64054,
+        "Erc NPS": 64334,
+        "Erc PRBS": 84329
+      },
+      "ytd_deductions": {
+        "CPF": 123033,
+        "P. Tax": 1775,
+        "CSSS": 18000,
+        "HCMRS sch": 1203,
+        "WG Rent": 3681,
+        "Tot Incm": 1838217,
+        "HRR": 1984,
+        "Tax Incm": 1779985,
+        "Eec PRBS": 110214,
+        "Erc PRBS": 84329,
+        "I. Tax": 241479,
+        "EEC NPS": 101000,
+        "Erc NPS": 64334,
+        "ITax-HPadj": 12145
+      },
+      "perks": {
+        "Housing": 166339,
+        "Int Loan": 28984
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2534557,
+        "Ded us 80": 112808,
+        "Income": 2459558,
+        "I.Tax&Sur": 298155,
+        "Std Dedn": 75000,
+        "Tax Payab": 56676
+      },
+      "totals": {
+        "tot_earn": 275909.71,
+        "tot_dedn": 96698.71,
+        "net_pay": 179211
+      }
+    },
+    "February": {
+      "metadata": {
+        "file": "Feb-2026.pdf",
+        "month": "February",
+        "year": "2026",
+        "serial_no": "2",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 78320,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 16645,
+        "erc_prbs": 594.05,
+        "erc_cpf": 14267,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 78320,
+        "Other Cafeteria": 19580,
+        "LFA Allowance-Ca": 7832,
+        "Cafeteria Adj-HP": -2277.65,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 40570,
+        "Coin Adjus": -0.48
+      },
+      "deductions": {
+        "CPF EEC": 14267,
+        "Income Tax": 25899,
+        "Prof Tax": 300,
+        "Emplyr paid ITax": -4555.3,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3566.7,
+        "PRBS  Addl": 50.77,
+        "ASTO Rec": 50,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "HRR incl retro": 320,
+        "Coin Adjus": 0.03
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 512500,
+          "accrued_interest": 80270.84
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 840909,
+        "Incentive": 242169,
+        "DA": 422138,
+        "Hard Duty": 6671,
+        "HRA": 13243,
+        "Other (T)": 422316,
+        "Other(NT)": 58232,
+        "Other Pay": 263730,
+        "Prev.Yrs.": 64054,
+        "Erc NPS": 97624,
+        "Erc PRBS": 85517
+      },
+      "ytd_deductions": {
+        "CPF": 151567,
+        "P. Tax": 2275,
+        "CSSS": 22000,
+        "HCMRS sch": 1604,
+        "WG Rent": 3681,
+        "Tot Incm": 2333467,
+        "HRR": 2624,
+        "Tax Incm": 2275234,
+        "Eec PRBS": 117449,
+        "Erc PRBS": 85517,
+        "I. Tax": 336802,
+        "EEC NPS": 141000,
+        "Erc NPS": 97624,
+        "ITax-HPadj": 21287
+      },
+      "perks": {
+        "Housing": 185919,
+        "Int Loan": 28984
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2751768,
+        "Ded us 80": 114269,
+        "Income": 2676769,
+        "I.Tax&Sur": 362700,
+        "Std Dedn": 75000,
+        "Tax Payab": 25898
+      },
+      "totals": {
+        "tot_earn": 142117.2,
+        "tot_dedn": 69173.2,
+        "net_pay": 72944
+      }
+    },
+    "January": {
+      "metadata": {
+        "file": "Jan-26.pdf",
+        "month": "January",
+        "year": "2026",
+        "serial_no": "2",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 78320,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 16645,
+        "erc_prbs": 594.05,
+        "erc_cpf": 14267,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 78320,
+        "Other Cafeteria": 19580,
+        "LFA Allowance-Ca": 7832,
+        "Cafeteria Adj-HP": -2293.42,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 40570,
+        "Arr. Hard Duty": 6671.02,
+        "PRP Payment": 121084.81,
+        "Uniform Reimb": 60152.31,
+        "Arr.Car Insuranc": 23121.67,
+        "Coin Adjus": 0.03
+      },
+      "deductions": {
+        "CPF EEC": 14267,
+        "Income Tax": 69424,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -4586.83,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3566.7,
+        "PRBS  Addl": 50.77,
+        "ASTO Rec": 50,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "HCMRS Ins Scheme": 401,
+        "HRR incl retro": 320,
+        "Coin Adjus": 0.11
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 518750,
+          "accrued_interest": 78541.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 762589,
+        "Incentive": 242169,
+        "DA": 381568,
+        "Hard Duty": 6671,
+        "HRA": 13243,
+        "Other (T)": 399088,
+        "Other(NT)": 58232,
+        "Other Pay": 263730,
+        "Prev.Yrs.": 64054,
+        "Erc NPS": 80979,
+        "Erc PRBS": 84923
+      },
+      "ytd_deductions": {
+        "CPF": 137300,
+        "P. Tax": 1975,
+        "CSSS": 20000,
+        "HCMRS sch": 1604,
+        "WG Rent": 3681,
+        "Tot Incm": 2191349,
+        "HRR": 2304,
+        "Tax Incm": 2133116,
+        "Eec PRBS": 113832,
+        "Erc PRBS": 84923,
+        "I. Tax": 310903,
+        "EEC NPS": 121000,
+        "Erc NPS": 80979,
+        "ITax-HPadj": 16732
+      },
+      "perks": {
+        "Housing": 186239,
+        "Int Loan": 28984
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2777487,
+        "Ded us 80": 114269,
+        "Income": 2702488,
+        "I.Tax&Sur": 370725,
+        "Std Dedn": 75000,
+        "Tax Payab": 59822
+      },
+      "totals": {
+        "tot_earn": 353131.75,
+        "tot_dedn": 112967.75,
+        "net_pay": 240164
+      }
+    },
+    "July": {
+      "metadata": {
+        "file": "July-2025.pdf",
+        "month": "July",
+        "year": "2025",
+        "serial_no": "12",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "Transferee Position",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 16426.31,
+        "erc_cpf": 13594,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76029.99,
+        "Other Cafeteria": 19007.5,
+        "LFA Allowance-Ca": 7603,
+        "Cafeteria Adj-HP": -734.2,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 37255,
+        "Uniform Reimb": 60152.31,
+        "Coin Adjus": 0.34
+      },
+      "deductions": {
+        "CPF EEC": 13594,
+        "Income Tax": 16354,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -1468.39,
+        "NPS EEC": 4200,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3398.55,
+        "PRBS  Addl": 15850.77,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "HCMRS Ins Scheme": 401,
+        "HRR incl retro": 384,
+        "Coin Adjus": 0.34
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 556250,
+          "accrued_interest": 67729.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 304119,
+        "Other (T)": 180686,
+        "DA": 148336,
+        "Other(NT)": 58232,
+        "HRA": 13243,
+        "Other Pay": 120304,
+        "Prev.Yrs.": 4268,
+        "Erc PRBS": 65606
+      },
+      "ytd_deductions": {
+        "CPF": 54295,
+        "P. Tax": 775,
+        "CSSS": 8000,
+        "HCMRS sch": 802,
+        "WG Rent": 1840,
+        "Tot Incm": 829192,
+        "HRR": 384,
+        "Tax Incm": 770959,
+        "Eec PRBS": 76976,
+        "Erc PRBS": 65606,
+        "I. Tax": 74181,
+        "EEC NPS": 16800,
+        "ITax-HPadj": 1468
+      },
+      "perks": {
+        "Housing": 134330,
+        "Int Loan": 27070
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2060630,
+        "I.Tax&Sur": 205012,
+        "Income": 1985630,
+        "Tax Payab": 130831,
+        "Std Dedn": 75000
+      },
+      "totals": {
+        "tot_earn": 197407.27,
+        "tot_dedn": 61214.27,
+        "net_pay": 136193
+      }
+    },
+    "March": {
+      "metadata": {
+        "file": "Mar-26.pdf",
+        "month": "March",
+        "year": "2026",
+        "serial_no": "2",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 78320,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 17170,
+        "erc_prbs": 614.12,
+        "erc_cpf": 14717,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 78320,
+        "Other Cafeteria": 19580,
+        "LFA Allowance-Ca": 7832,
+        "Cafeteria Adj-HP": -2635.88,
+        "WG value adjust-": -1906.67,
+        "Arr.Variable DA": 2506,
+        "Variable DA": 41823,
+        "Coin Adjus": -0.44
+      },
+      "deductions": {
+        "CPF EEC": 14717,
+        "Income Tax": 25768,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -5271.75,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3679.47,
+        "PRBS  Addl": 50.77,
+        "ASTO Rec": 50,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "TR: Travel Recov": 6949,
+        "HRR incl retro": 320,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": -0.48
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 506250,
+          "accrued_interest": 81979.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 919229,
+        "Incentive": 242169,
+        "DA": 466467,
+        "Hard Duty": 6671,
+        "HRA": 13243,
+        "Other (T)": 466605,
+        "Other(NT)": 58232,
+        "Other Pay": 263730,
+        "Prev.Yrs.": 64054,
+        "Erc NPS": 114794,
+        "Erc PRBS": 86132
+      },
+      "ytd_deductions": {
+        "CPF": 166284,
+        "P. Tax": 2475,
+        "CSSS": 24000,
+        "HCMRS sch": 1604,
+        "WG Rent": 3681,
+        "Tot Incm": 2500405,
+        "HRR": 2944,
+        "Tax Incm": 2442172,
+        "Eec PRBS": 121180,
+        "Erc PRBS": 86132,
+        "I. Tax": 369253,
+        "EEC NPS": 161000,
+        "Erc NPS": 114794,
+        "ITax-HPadj": 26559
+      },
+      "perks": {
+        "Housing": 185859,
+        "Int Loan": 28984
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2773297,
+        "Ded us 80": 114794,
+        "Income": 2698297,
+        "I.Tax&Sur": 369253,
+        "Std Dedn": 75000
+      },
+      "totals": {
+        "tot_earn": 145518.01,
+        "tot_dedn": 76237.01,
+        "net_pay": 69281
+      }
+    },
+    "June": {
+      "metadata": {
+        "file": "May-June-2025.pdf",
+        "month": "June",
+        "year": "2025",
+        "serial_no": "14",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "Transferee Position",
+        "position": "Transferee Position MR-N&",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 0,
+        "erc_prbs": 32786.53,
+        "erc_cpf": 27134,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Arr.Basic Pay": 76030,
+        "Basic Pay": 76030,
+        "Arr Other Cafete": 19007.5,
+        "Arr LFA Allowanc": 7603,
+        "Other Cafeteria": 19007.5,
+        "LFA Allowance-Ca": 7603,
+        "WG value adjust-": -1906.67,
+        "Arr.WG value adj": -1906.67,
+        "Arr.HR Allowance": -6085.36,
+        "Arr.Variable DA": 37027,
+        "Variable DA": 37027,
+        "Arr.Medical Reim": 16657,
+        "Coin Adjus": 0.34
+      },
+      "deductions": {
+        "CPF EEC": 27134,
+        "Income Tax": 34079,
+        "Prof Tax": 375,
+        "NPS EEC": 8400,
+        "Arr.CSS Scheme": 2000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 6783.42,
+        "Arr.PRBS Addl": 15850.77,
+        "PRBS  Addl": 15850.77,
+        "Arr.ASTO Member": 25,
+        "Arr.ONGCHA Membe": 25,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "Arr.Rec.Car/4 Wh": 6250,
+        "Arr.Penal Int. R": 2843.52,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.16
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 562500,
+          "accrued_interest": 65854.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 228090,
+        "Other (T)": 134268,
+        "DA": 111081,
+        "Other(NT)": 58232,
+        "HRA": 13243,
+        "Other Pay": 60152,
+        "Prev.Yrs.": 4268,
+        "Erc PRBS": 49179
+      },
+      "ytd_deductions": {
+        "CPF": 40701,
+        "P. Tax": 575,
+        "CSSS": 6000,
+        "HCMRS sch": 401,
+        "WG Rent": 1840,
+        "Tot Incm": 609337,
+        "Eec PRBS": 57727,
+        "Tax Incm": 551104,
+        "Erc PRBS": 49179,
+        "I. Tax": 53158,
+        "EEC NPS": 12600
+      },
+      "perks": {
+        "Int Loan": 27070
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 1842381,
+        "I.Tax&Sur": 159616,
+        "Income": 1767381,
+        "Tax Payab": 106458,
+        "Std Dedn": 75000
+      },
+      "totals": {
+        "tot_earn": 286093.64,
+        "tot_dedn": 128416.64,
+        "net_pay": 157677
+      }
+    },
+    "November": {
+      "metadata": {
+        "file": "Nov-2025.pdf",
+        "month": "November",
+        "year": "2025",
+        "serial_no": "6",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 16456,
+        "erc_prbs": 587.73,
+        "erc_cpf": 14106,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 19007.5,
+        "LFA Allowance-Ca": 7603,
+        "Cafeteria Adj-HP": -1125.56,
+        "WG value adjust-": -1906.67,
+        "Arr.Variable DA": 2129,
+        "Variable DA": 39384,
+        "Coin Adjus": 0.29
+      },
+      "deductions": {
+        "CPF EEC": 14106,
+        "Income Tax": 19556,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -2251.12,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3526.29,
+        "PRBS  Addl": 50.77,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "HRR incl retro": 320,
+        "White goods Rent": 202.8,
+        "Coin Adjus": -0.18
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 531250,
+          "accrued_interest": 75020.84
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 608239,
+        "Incentive": 121084,
+        "DA": 301614,
+        "Other (T)": 329009,
+        "HRA": 13243,
+        "Other(NT)": 58232,
+        "Other Pay": 180456,
+        "Prev.Yrs.": -73124,
+        "Erc NPS": 48176,
+        "Erc PRBS": 83752
+      },
+      "ytd_deductions": {
+        "CPF": 109183,
+        "P. Tax": 1575,
+        "CSSS": 16000,
+        "HCMRS sch": 1203,
+        "WG Rent": 3681,
+        "Tot Incm": 1538758,
+        "HRR": 1664,
+        "Tax Incm": 1480525,
+        "Eec PRBS": 106701,
+        "Erc PRBS": 83752,
+        "I. Tax": 180798,
+        "EEC NPS": 81000,
+        "Erc NPS": 48176,
+        "ITax-HPadj": 9371
+      },
+      "perks": {
+        "Housing": 166659,
+        "Int Loan": 28984
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2375536,
+        "Ded us 80": 112808,
+        "Income": 2300536,
+        "I.Tax&Sur": 256810,
+        "Std Dedn": 75000,
+        "Tax Payab": 76012
+      },
+      "totals": {
+        "tot_earn": 141121.56,
+        "tot_dedn": 64010.56,
+        "net_pay": 77111
+      }
+    },
+    "October": {
+      "metadata": {
+        "file": "Oct-2025.pdf",
+        "month": "October",
+        "year": "2025",
+        "serial_no": "8",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 15860,
+        "erc_prbs": 566.33,
+        "erc_cpf": 13594,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 19007.5,
+        "LFA Allowance-Ca": 7603,
+        "Cafeteria Adj-HP": -1106.85,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 37255,
+        "Uniform Reimb": 60152.31,
+        "Coin Adjus": -0.18
+      },
+      "deductions": {
+        "CPF EEC": 13594,
+        "Income Tax": 18449,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -2213.7,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3398.55,
+        "PRBS  Addl": 50.77,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "HCMRS Ins Scheme": 401,
+        "HRR incl retro": 320,
+        "PRMB Ann Recov": 200,
+        "White goods Rent": 1638,
+        "Coin Adjus": 0.49
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 537500,
+          "accrued_interest": 73229.17
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 532209,
+        "Incentive": 121084,
+        "DA": 260101,
+        "Other (T)": 281244,
+        "HRA": 13243,
+        "Other(NT)": 58232,
+        "Other Pay": 180456,
+        "Prev.Yrs.": -73124,
+        "Erc NPS": 31720,
+        "Erc PRBS": 83165
+      },
+      "ytd_deductions": {
+        "CPF": 95077,
+        "P. Tax": 1375,
+        "CSSS": 14000,
+        "HCMRS sch": 1203,
+        "WG Rent": 3478,
+        "Tot Incm": 1373450,
+        "HRR": 1344,
+        "Tax Incm": 1315217,
+        "Eec PRBS": 103124,
+        "Erc PRBS": 83165,
+        "I. Tax": 154953,
+        "EEC NPS": 61000,
+        "Erc NPS": 31720,
+        "ITax-HPadj": 7120
+      },
+      "perks": {
+        "Housing": 165523,
+        "Int Loan": 28984
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2336776,
+        "Ded us 80": 111020,
+        "Income": 2261777,
+        "I.Tax&Sur": 247198,
+        "Std Dedn": 75000,
+        "Tax Payab": 92245
+      },
+      "totals": {
+        "tot_earn": 197034.11,
+        "tot_dedn": 64338.11,
+        "net_pay": 132696
+      }
+    },
+    "September": {
+      "metadata": {
+        "file": "Sept-2025.pdf",
+        "month": "September",
+        "year": "2025",
+        "serial_no": "10",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 76030,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 15860,
+        "erc_prbs": 566.33,
+        "erc_cpf": 13594,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 76030,
+        "Other Cafeteria": 19007.5,
+        "LFA Allowance-Ca": 7603,
+        "Cafeteria Adj-HP": -989.21,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 37255,
+        "Coin Adjus": 0.3
+      },
+      "deductions": {
+        "CPF EEC": 13594,
+        "Income Tax": 15644,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -1978.42,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3398.55,
+        "PRBS  Addl": 50.77,
+        "ASTO Rec": 25,
+        "ONGCHA Membershi": 25,
+        "HRR incl retro": 320,
+        "ONGC Sahyog Fund": 500,
+        "Coin Adjus": 0.02
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 543750,
+          "accrued_interest": 71416.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 456179,
+        "Incentive": 121084,
+        "DA": 222846,
+        "Other (T)": 257647,
+        "HRA": 13243,
+        "Other(NT)": 58232,
+        "Other Pay": 120304,
+        "Prev.Yrs.": -73124,
+        "Erc NPS": 15860,
+        "Erc PRBS": 82598
+      },
+      "ytd_deductions": {
+        "CPF": 81483,
+        "P. Tax": 1175,
+        "CSSS": 12000,
+        "HCMRS sch": 802,
+        "WG Rent": 1840,
+        "Tot Incm": 1176415,
+        "HRR": 1024,
+        "Tax Incm": 1118182,
+        "Eec PRBS": 99675,
+        "Erc PRBS": 82598,
+        "I. Tax": 136504,
+        "EEC NPS": 41000,
+        "Erc NPS": 15860,
+        "ITax-HPadj": 4906
+      },
+      "perks": {
+        "Housing": 159828,
+        "Int Loan": 28984
+      },
+      "savings": {},
+      "form16": {
+        "Gross Sal": 2272035,
+        "Ded us 80": 111020,
+        "Income": 2197036,
+        "I.Tax&Sur": 230366,
+        "Std Dedn": 75000,
+        "Tax Payab": 93862
+      },
+      "totals": {
+        "tot_earn": 136999.92,
+        "tot_dedn": 60028.92,
+        "net_pay": 76971
+      }
+    }
+  },
+  "2026-27": {
+    "April": {
+      "metadata": {
+        "file": "April-26.pdf",
+        "month": "April",
+        "year": "2026",
+        "serial_no": "2",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 78320,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 16820,
+        "erc_prbs": 600.74,
+        "erc_cpf": 14417,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 78320,
+        "Other Cafeteria": 27412,
+        "Cafeteria Adj-HP": -886.28,
+        "WG value adjust-": -1906.67,
+        "Variable DA": 41823,
+        "Maint charge WG": 65000,
+        "Uniform Reimb": 66167.55,
+        "Coin Adjus": 0.35
+      },
+      "deductions": {
+        "CPF EEC": 14417,
+        "Income Tax": 17442,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -1772.55,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3604.29,
+        "PRBS  Addl": 2055.85,
+        "ASTO Rec": 50,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "HCMRS Ins Scheme": 368,
+        "HRR incl retro": 320,
+        "PRMB Ann Recov": 200,
+        "White goods Rent": 1840.8,
+        "Coin Adjus": -0.44
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 500000,
+          "accrued_interest": 83666.67
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 78320,
+        "Other (T)": 40119,
+        "DA": 41823,
+        "Other(NT)": 65000,
+        "Other Pay": 66167,
+        "Erc NPS": 16820,
+        "Erc PRBS": 600
+      },
+      "ytd_deductions": {
+        "CPF": 14417,
+        "P. Tax": 200,
+        "CSSS": 2000,
+        "HCMRS sch": 368,
+        "WG Rent": 1840,
+        "Tot Incm": 291429,
+        "HRR": 320,
+        "Tax Incm": 226429,
+        "Eec PRBS": 5660,
+        "Erc PRBS": 600,
+        "I. Tax": 17442,
+        "EEC NPS": 20000,
+        "Erc NPS": 16820,
+        "ITax-HPadj": 1772
+      },
+      "perks": {
+        "Housing": 203546,
+        "Int Loan": 25009
+      },
+      "savings": {},
+      "form16": {
+        "Ded us 80": 201840,
+        "Income": 2206837,
+        "I.Tax&Sur": 209300,
+        "Std Dedn": 75000,
+        "Tax Payab": 191858
+      },
+      "totals": {
+        "tot_earn": 275929.95,
+        "tot_dedn": 67999.95,
+        "net_pay": 207930
+      }
+    },
+    "May": {
+      "metadata": {
+        "file": "May-26.pdf",
+        "month": "May",
+        "year": "2026",
+        "serial_no": "4",
+        "name": "AMRINDER SINGH",
+        "cpf_no": "135833",
+        "designation": "Executive Engineer ( Instrumentation )",
+        "unit": "CORP ENGG SER OFFSHO",
+        "position": "MUM ES OFF WORKS -SITE/ P",
+        "pan": "HMVPS9491F",
+        "payscale": "70,000 -   200,000",
+        "payrate": 78320,
+        "dob": "01.08.1993",
+        "doj": "26.09.2018",
+        "last_promotion": "01.01.2023",
+        "erc_eps": 0,
+        "erc_nps": 16974,
+        "erc_prbs": 605.65,
+        "erc_cpf": 14549,
+        "erc_csss": 2000
+      },
+      "earnings": {
+        "Basic Pay": 78320,
+        "Other Cafeteria": 27412,
+        "Cafeteria Adj-HP": -827.13,
+        "WG value adjust-": -1906.67,
+        "Arr.Variable DA": 548,
+        "Variable DA": 42371,
+        "Coin Adjus": -0.08
+      },
+      "deductions": {
+        "CPF EEC": 14549,
+        "Income Tax": 15336,
+        "Prof Tax": 200,
+        "Emplyr paid ITax": -1654.25,
+        "NPS EEC": 20000,
+        "CSS Scheme": 2000,
+        "Emp PRBS contrib": 3637.17,
+        "PRBS  Addl": 2055.85,
+        "ASTO Rec": 50,
+        "ONGCHA Membershi": 25,
+        "C&T Scty I": 1000,
+        "TR: Travel Recov": -6949,
+        "HRR incl retro": 320,
+        "Coin Adjus": 0.35
+      },
+      "loans": {
+        "Car/4 Wheeler": {
+          "installment": 6250,
+          "balance": 493750,
+          "accrued_interest": 85333.34
+        }
+      },
+      "ytd_earnings": {
+        "PAY": 156640,
+        "Other (T)": 64797,
+        "DA": 84742,
+        "Other(NT)": 65000,
+        "Other Pay": 66167,
+        "Prev.Yrs.": -123150,
+        "Erc NPS": 33794,
+        "Erc PRBS": 1206
+      },
+      "ytd_deductions": {
+        "CPF": 28966,
+        "P. Tax": 400,
+        "CSSS": 4000,
+        "HCMRS sch": 368,
+        "WG Rent": 1840,
+        "Tot Incm": 314196,
+        "HRR": 640,
+        "Tax Incm": 249196,
+        "Eec PRBS": 11353,
+        "Erc PRBS": 1206,
+        "I. Tax": 32778,
+        "EEC NPS": 40000,
+        "Erc NPS": 33794,
+        "ITax-HPadj": 3426
+      },
+      "perks": {
+        "Housing": 203976,
+        "Int Loan": 25009
+      },
+      "savings": {},
+      "form16": {
+        "Ded us 80": 202761,
+        "Income": 2090790,
+        "I.Tax&Sur": 184711,
+        "Std Dedn": 75000,
+        "Tax Payab": 151933
+      },
+      "totals": {
+        "tot_earn": 145917.12,
+        "tot_dedn": 56820.12,
+        "net_pay": 89097
+      }
+    }
+  }
+}

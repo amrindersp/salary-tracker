@@ -1,0 +1,2191 @@
+{
+  "ruleBasicInc": 3,
+  "ruleCafeteria": 35,
+  "ruleDA": 53.4,
+  "ruleCPF": 12,
+  "ruleCSSS": 2000,
+  "rulePRBS": 3,
+  "ruleUniform": 264670.2,
+  "variables": {
+    "default": [
+      {
+        "name": "Basic Pay",
+        "formula": "X",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Other Cafeteria",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Cafeteria Adj-HP",
+        "formula": "Emplr Paid Itax/2",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Variable DA",
+        "formula": "53.4",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Maint charge WG",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "yearly",
+        "specificMonths": [
+          "April"
+        ]
+      },
+      {
+        "name": "Uniform Reimb",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "April",
+          "July",
+          "October",
+          "January"
+        ]
+      },
+      {
+        "name": "WG value adjust-",
+        "formula": "-1906.67",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "House Rent Allow",
+        "formula": "9",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "LFA Allowance-Ca",
+        "formula": "10",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CMRE",
+        "formula": "12740",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CPF EEC",
+        "formula": "12",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Income Tax",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Prof Tax",
+        "formula": "200",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emplr Paid Itax",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "NPS EEC",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CSS Scheme",
+        "formula": "2000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emp PRBS contrib",
+        "formula": "3",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "PRBS  Addl",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ASTO Rec",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGCHA Membershi",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "C&T Scty I",
+        "formula": "1000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Officers' Club",
+        "formula": "100",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "White goods Rent",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGC Sahyog fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      },
+      {
+        "name": "HCMRS Ins Scheme",
+        "formula": "401",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "January",
+          "April",
+          "July",
+          "October"
+        ]
+      },
+      {
+        "name": "erc_cpf",
+        "formula": "12",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_eps",
+        "formula": "0",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_nps",
+        "formula": "14",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA+Arr. Variable DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_prbs",
+        "formula": "0.5",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_csss",
+        "formula": "2000",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Housing",
+        "formula": "10",
+        "type": "Perks",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Int loan",
+        "formula": "28984",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Asset Tra",
+        "formula": "4800",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Car/4 Wheeler",
+        "formula": "6250",
+        "type": "Loans",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "HRR incl retro",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Association Membership",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Sahyog Fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      }
+    ],
+    "2022-23": [
+      {
+        "name": "Basic Pay",
+        "formula": "X",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Other Cafeteria",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Cafeteria Adj-HP",
+        "formula": "Emplr Paid Itax/2",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Variable DA",
+        "formula": "53.4",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Maint charge WG",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "yearly",
+        "specificMonths": [
+          "April"
+        ]
+      },
+      {
+        "name": "Uniform Reimb",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "April",
+          "July",
+          "October",
+          "January"
+        ]
+      },
+      {
+        "name": "WG value adjust-",
+        "formula": "-1283.33",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "House Rent Allow",
+        "formula": "9",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "LFA Allowance-Ca",
+        "formula": "10",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CMRE",
+        "formula": "12740",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CPF EEC",
+        "formula": "12",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Income Tax",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Prof Tax",
+        "formula": "200",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emplr Paid Itax",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "NPS EEC",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CSS Scheme",
+        "formula": "2000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emp PRBS contrib",
+        "formula": "3",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "PRBS  Addl",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ASTO Rec",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGCHA Membershi",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "C&T Scty I",
+        "formula": "1000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Officers' Club",
+        "formula": "100",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "White goods Rent",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGC Sahyog fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      },
+      {
+        "name": "HCMRS Ins Scheme",
+        "formula": "462",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "January",
+          "April",
+          "July",
+          "October"
+        ]
+      },
+      {
+        "name": "erc_cpf",
+        "formula": "12",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_eps",
+        "formula": "0",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_nps",
+        "formula": "14",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA+Arr. Variable DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_prbs",
+        "formula": "0.5",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_csss",
+        "formula": "2000",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Housing",
+        "formula": "10",
+        "type": "Perks",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Int loan",
+        "formula": "28984",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Asset Tra",
+        "formula": "4800",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Car/4 Wheeler",
+        "formula": "6250",
+        "type": "Loans",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "HRR incl retro",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Association Membership",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Sahyog Fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      }
+    ],
+    "2023-24": [
+      {
+        "name": "Basic Pay",
+        "formula": "X",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Other Cafeteria",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Cafeteria Adj-HP",
+        "formula": "Emplr Paid Itax/2",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Variable DA",
+        "formula": "53.4",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Maint charge WG",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "yearly",
+        "specificMonths": [
+          "April"
+        ]
+      },
+      {
+        "name": "Uniform Reimb",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "April",
+          "July",
+          "October",
+          "January"
+        ]
+      },
+      {
+        "name": "WG value adjust-",
+        "formula": "-1283.33",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "House Rent Allow",
+        "formula": "9",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "LFA Allowance-Ca",
+        "formula": "10",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CMRE",
+        "formula": "12740",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CPF EEC",
+        "formula": "12",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Income Tax",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Prof Tax",
+        "formula": "200",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emplr Paid Itax",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "NPS EEC",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CSS Scheme",
+        "formula": "2000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emp PRBS contrib",
+        "formula": "3",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "PRBS  Addl",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ASTO Rec",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGCHA Membershi",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "C&T Scty I",
+        "formula": "1000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Officers' Club",
+        "formula": "100",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "White goods Rent",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGC Sahyog fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      },
+      {
+        "name": "HCMRS Ins Scheme",
+        "formula": "462",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "January",
+          "April",
+          "July",
+          "October"
+        ]
+      },
+      {
+        "name": "erc_cpf",
+        "formula": "12",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_eps",
+        "formula": "0",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_nps",
+        "formula": "14",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA+Arr. Variable DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_prbs",
+        "formula": "0.5",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_csss",
+        "formula": "2000",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Housing",
+        "formula": "10",
+        "type": "Perks",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Int loan",
+        "formula": "28984",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Asset Tra",
+        "formula": "4800",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Car/4 Wheeler",
+        "formula": "6250",
+        "type": "Loans",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "HRR incl retro",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Association Membership",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Sahyog Fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      }
+    ],
+    "2024-25": [
+      {
+        "name": "Basic Pay",
+        "formula": "X",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Other Cafeteria",
+        "formula": "20",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Cafeteria Adj-HP",
+        "formula": "Emplr Paid Itax/2",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Variable DA",
+        "formula": "53.4",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Maint charge WG",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "yearly",
+        "specificMonths": [
+          "April"
+        ]
+      },
+      {
+        "name": "Uniform Reimb",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "April",
+          "July",
+          "October",
+          "January"
+        ]
+      },
+      {
+        "name": "WG value adjust-",
+        "formula": "-1906.67",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "House Rent Allow",
+        "formula": "9",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "LFA Allowance-Ca",
+        "formula": "15",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CMRE",
+        "formula": "12740",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CPF EEC",
+        "formula": "12",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Income Tax",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Prof Tax",
+        "formula": "200",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emplr Paid Itax",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "NPS EEC",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CSS Scheme",
+        "formula": "2000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emp PRBS contrib",
+        "formula": "3",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "PRBS  Addl",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ASTO Rec",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGCHA Membershi",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "C&T Scty I",
+        "formula": "1000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Officers' Club",
+        "formula": "100",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "White goods Rent",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGC Sahyog fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      },
+      {
+        "name": "HCMRS Ins Scheme",
+        "formula": "432",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "January",
+          "April",
+          "July",
+          "October"
+        ]
+      },
+      {
+        "name": "erc_cpf",
+        "formula": "12",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_eps",
+        "formula": "0",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_nps",
+        "formula": "14",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA+Arr. Variable DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_prbs",
+        "formula": "0.5",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_csss",
+        "formula": "2000",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Housing",
+        "formula": "10",
+        "type": "Perks",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Int loan",
+        "formula": "28984",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Asset Tra",
+        "formula": "4800",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Car/4 Wheeler",
+        "formula": "6250",
+        "type": "Loans",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "HRR incl retro",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Association Membership",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Sahyog Fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      }
+    ],
+    "2025-26": [
+      {
+        "name": "Basic Pay",
+        "formula": "76030",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Other Cafeteria",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Cafeteria Adj-HP",
+        "formula": "Emplr Paid Itax/2",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Variable DA",
+        "formula": "53.4",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Maint charge WG",
+        "formula": "25",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "yearly",
+        "specificMonths": [
+          "April"
+        ]
+      },
+      {
+        "name": "Uniform Reimb",
+        "formula": "60152.3175",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "April",
+          "July",
+          "October",
+          "January"
+        ]
+      },
+      {
+        "name": "WG value adjust-",
+        "formula": "-1906.67",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "House Rent Allow",
+        "formula": "0",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "LFA Allowance-Ca",
+        "formula": "10",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CMRE",
+        "formula": "0",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CPF EEC",
+        "formula": "12",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Income Tax",
+        "formula": "x",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Prof Tax",
+        "formula": "200",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emplr Paid Itax",
+        "formula": "x",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "NPS EEC",
+        "formula": "20000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CSS Scheme",
+        "formula": "2000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emp PRBS contrib",
+        "formula": "3",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "PRBS  Addl",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ASTO Rec",
+        "formula": "50",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGCHA Membershi",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "C&T Scty I",
+        "formula": "1000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Officers' Club",
+        "formula": "x",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "White goods Rent",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGC Sahyog fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      },
+      {
+        "name": "HCMRS Ins Scheme",
+        "formula": "401",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "January",
+          "April",
+          "July",
+          "October"
+        ]
+      },
+      {
+        "name": "erc_cpf",
+        "formula": "12",
+        "type": "Employer Contributions",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_eps",
+        "formula": "0",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_nps",
+        "formula": "14",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA+Arr. Variable DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_prbs",
+        "formula": "0.5",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_csss",
+        "formula": "2000",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Housing",
+        "formula": "Tax Incm*0.1*5.2",
+        "type": "Perks",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Int loan",
+        "formula": "28984",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Asset Tra",
+        "formula": "X",
+        "type": "Loans",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Car/4 Wheeler",
+        "formula": "6250",
+        "type": "Loans",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "HRR incl retro",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Association Membership",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Sahyog Fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      }
+    ],
+    "2026-27": [
+      {
+        "name": "Basic Pay",
+        "formula": "78320",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Cafeteria Adj-HP",
+        "formula": "Emplr Paid Itax/2",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CMRE",
+        "formula": "X",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "House Rent Allow",
+        "formula": "X",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "LFA Allowance-Ca",
+        "formula": "X",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Maint charge WG",
+        "formula": "0.25*260000",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "yearly",
+        "specificMonths": [
+          "April"
+        ]
+      },
+      {
+        "name": "Other Cafeteria",
+        "formula": "35",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "PRP Payment",
+        "formula": "X",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Uniform Reimb",
+        "formula": "0.25*264670.20",
+        "type": "Earnings",
+        "base": "Flat Value",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "April",
+          "July",
+          "October",
+          "January"
+        ]
+      },
+      {
+        "name": "Variable DA",
+        "formula": "53.4",
+        "type": "Earnings",
+        "base": "% of Basic Pay",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "WG value adjust-",
+        "formula": "-1906.67",
+        "type": "Earnings",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Association Membership",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ASTO Rec",
+        "formula": "50",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "C&T Scty I",
+        "formula": "1000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CPF EEC",
+        "formula": "12",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CSS Scheme",
+        "formula": "2000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emp PRBS contrib",
+        "formula": "3",
+        "type": "Deductions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Emplr Paid Itax",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "HCMRS Ins Scheme",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "quarterly",
+        "specificMonths": [
+          "January",
+          "April",
+          "July",
+          "October"
+        ]
+      },
+      {
+        "name": "HRR incl retro",
+        "formula": "320",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Income Tax",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "NPS EEC",
+        "formula": "20000",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Officers' Club",
+        "formula": "X",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "ONGC Sahyog fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      },
+      {
+        "name": "ONGC Sahyog Fund",
+        "formula": "500",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "half-yearly",
+        "specificMonths": [
+          "September",
+          "March"
+        ]
+      },
+      {
+        "name": "ONGCHA Membershi",
+        "formula": "25",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "PRBS  Addl",
+        "formula": "50.77",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Prof Tax",
+        "formula": "200",
+        "type": "Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": [],
+        "isSplit": true,
+        "splits": [
+          {
+            "formula": "200",
+            "startMonth": "April",
+            "endMonth": "January"
+          },
+          {
+            "formula": "300",
+            "startMonth": "February",
+            "endMonth": "February"
+          },
+          {
+            "formula": "200",
+            "startMonth": "March",
+            "endMonth": "March"
+          }
+        ]
+      },
+      {
+        "name": "White goods Rent",
+        "formula": "0",
+        "type": "Deductions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_cpf",
+        "formula": "12",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_csss",
+        "formula": "2000",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_eps",
+        "formula": "0",
+        "type": "Employer Contributions",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_nps",
+        "formula": "14",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA+Arr. Variable DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_prbs",
+        "formula": "0.5",
+        "type": "Employer Contributions",
+        "base": "% of Basic+DA",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Acc. Intrst",
+        "formula": "Acc. Intrst1 + 1/3%*Balance",
+        "type": "Loans",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Acc. Intrst1",
+        "formula": "X",
+        "type": "Loans",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Balance",
+        "formula": "previous month Balance amount - Car loan Installment",
+        "type": "Loans",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Car/4 Wheeler",
+        "formula": "6250",
+        "type": "Loans",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "CMRE",
+        "formula": "Cummulative CMRE of that Financial year till date",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "DA",
+        "formula": "Cummulative Variable DA of that Financial year till date",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "ERC PRBS",
+        "formula": "Cummulative erc_prbs of that Financial year till date",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Hard Duty",
+        "formula": "0",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "HRA",
+        "formula": "Cummulative HRA of that Financial year till date",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Incentive",
+        "formula": "PRP Payment",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Other (T)",
+        "formula": "Cummulative (Other Cafeteria+LFA Allowance-CA+Arrears other than April month+All Reimbursements+FDE without tax+Spectacles-WG Value Adjust-) of that Financial year till date",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Other Pay",
+        "formula": "Cummulative (Uniform Reimb+ vehicle Insurance Reimbursement) of that Financial year till date",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Other(NT)",
+        "formula": "Cummulative (Maintenance charge WG+1800) of that Financial year till date",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "PAY",
+        "formula": "Cummulative Basic Pay of that Financial year till date",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Prev.Yrs.",
+        "formula": "Arrears payments (Arr. Is the starting keyword)",
+        "type": "YTD Earnings",
+        "base": "Custom Formula",
+        "frequency": "specific",
+        "specificMonths": [
+          "April"
+        ]
+      },
+      {
+        "name": "CPF",
+        "formula": "Cummulative CPF EEC of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "CSSS",
+        "formula": "Cummulative CSS SCHEME of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "EEC NPS",
+        "formula": "Cummulative NPS EEC of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Eec PRBS",
+        "formula": "Cummulative Emp PRBS contrib of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_nps",
+        "formula": "Cummulative ERC NPS of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "erc_prbs",
+        "formula": "Cummulative ERC-PRBS of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "HCMRS sch",
+        "formula": "Cummulative HCMRS Ins Scheme of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "HRR",
+        "formula": "Cummulative HRR incl retro of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "I. Tax",
+        "formula": "Cummulative Income Tax of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "P. Tax",
+        "formula": "Cummulative Prof Tax of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Tax Incm",
+        "formula": "Tot Incm-Other(NT)",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Tot Incm",
+        "formula": "PAY+DA+HRA+CMRE+Other(T)+Other(NT)+Other Pay+Prev. Yrs.+Incentive+Hard Duty",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "WG Rent",
+        "formula": "Cummulative White goods Rent of that Financial year till date",
+        "type": "YTD Deductions",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Asset Tra",
+        "formula": "X",
+        "type": "Perks",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Housing",
+        "formula": "Tax Incm*0.1*5.2/12",
+        "type": "Perks",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Int loan",
+        "formula": "28984",
+        "type": "Perks",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Ded us 80",
+        "formula": "Cummulative of ERC NPS of that Financial year till date or 150000 (whichever is lower)",
+        "type": "Form 16",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Gross Sal",
+        "formula": "PAY+DA+HRA+Medical Allowance+Incentive+Cummulative Other Cafeteria till date+Int loan+Asset Tra+Car Insuranc+Uniform Reimb+FDE",
+        "type": "Form 16",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "I.Tax&Sur",
+        "formula": "Cummulative of Income Tax of that Financial year till date",
+        "type": "Form 16",
+        "base": "Custom Formula",
+        "frequency": "cummulative",
+        "specificMonths": []
+      },
+      {
+        "name": "Income",
+        "formula": "Gross sal - Std Dedn",
+        "type": "Form 16",
+        "base": "Custom Formula",
+        "frequency": "monthly",
+        "specificMonths": []
+      },
+      {
+        "name": "Std Dedn",
+        "formula": "75000",
+        "type": "Form 16",
+        "base": "Flat Value",
+        "frequency": "monthly",
+        "specificMonths": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    window.lastErrors = [];
+    window.onerror = function(message, source, lineno, colno, error) {
+      const err = { message, source, lineno, colno, error: error ? error.stack : null };
+      window.lastErrors.push(err);
+      try {
+        const existing = JSON.parse(localStorage.getItem('lastErrors') || '[]');
+        existing.push(err);
+        localStorage.setItem('lastErrors', JSON.stringify(existing));
+      } catch (e) {}
+      console.log("Captured load error:", err);
+    };
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>AG Salary Tracker & Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Chart.js CDN for visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <!-- SheetJS CDN for parsing Excel files in browser -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  
+  <!-- PDF.js CDN for extracting text from PDFs in the browser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+  <script>
+    // Point PDF.js to the worker script CDN
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
+  </script>
+
+  <!-- Google API Client and Identity Services SDK -->
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script src="https://accounts.google.com/gsi/client"></script>
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="brand">
+        <div class="brand-icon">S</div>
+        <div class="brand-name">Salary Tracker & Analyzer</div>
+      </div>
+      
+      <nav class="nav-links">
+        <button class="nav-btn active" onclick="switchView('dashboard')">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm12 1H2v1h11zm0 2H2v5h11z"/></svg>
+          Dashboard
+        </button>
+        <button class="nav-btn" onclick="switchView('spreadsheet')">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M1.5 1.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 2h-4v3h4zm-5 0H6v3h4zm-5 0H1v3h4zm0 4H1v3h4zm5 0H6v3h4zm5 0h-4v3h4zm0 4h-4v1.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V12h4z"/></svg>
+          Spreadsheet
+        </button>
+        <button class="nav-btn" onclick="switchView('verification')">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>
+          Verification Engine
+        </button>
+        <button class="nav-btn" onclick="switchView('mapper')">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708z"/></svg>
+          PDF Slip Mapper
+        </button>
+        <button class="nav-btn" onclick="switchView('data')">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-5.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-3 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>
+          Data Hub
+        </button>
+      </nav>
+      
+      <div class="user-profile">
+        <div class="user-avatar" id="avatarName">AS</div>
+        <div class="user-info">
+          <span class="user-name" id="profileName">Amrinder Singh</span>
+          <span class="user-title" id="profileDesgn">Executive Engineer</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-content">
+      
+      <!-- VIEW 1: DASHBOARD OVERVIEW -->
+      <section id="dashboard-view" class="view-section active">
+        <!-- Dashboard Header with FY Selector -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+          <h2 class="card-title" style="margin: 0; font-size: 1.3rem;">Financial Performance Dashboard</h2>
+          <div class="filters-group" style="margin: 0;">
+            <select id="dashFySelector" onchange="changeDashFy(this.value)" style="width: 120px; background: rgba(15, 23, 42, 0.4); border: 1px solid var(--glass-border); color: var(--text-primary); padding: 0.4rem; border-radius: 6px; font-family: var(--font-family); font-size: 0.8rem; font-weight: 600;">
+              <!-- Populated dynamically -->
+            </select>
+          </div>
+        </div>
+
+        <!-- KPI Metric Cards -->
+        <div class="dashboard-grid">
+          <div class="glass-card kpi-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-green);">
+            <div class="kpi-icon" style="background: rgba(16, 185, 129, 0.12); color: var(--accent-green);">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2zm1 4.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1 0-1zm-1 3h13v1H1.5a.5.5 0 0 1 0-1z"/></svg>
+            </div>
+            <div class="kpi-data" style="flex: 1;">
+              <span class="kpi-title">Average Net Pay</span>
+              <span class="kpi-value" id="kpiNetPay" style="color: var(--accent-green);">₹0.00</span>
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.2rem; flex-wrap: wrap;">
+                <span class="kpi-subtitle" id="kpiNetTrend" style="margin-top: 0;">Current Financial Year</span>
+                <span id="kpiNetYoY" class="yoy-badge" style="display: none;"></span>
+              </div>
+            </div>
+          </div>
+          <div class="glass-card kpi-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-cyan);">
+            <div class="kpi-icon" style="background: rgba(6, 182, 212, 0.12); color: var(--accent-cyan);">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/></svg>
+            </div>
+            <div class="kpi-data" style="flex: 1;">
+              <span class="kpi-title">YTD Gross Earnings</span>
+              <span class="kpi-value" id="kpiGrossPay" style="color: var(--accent-cyan);">₹0.00</span>
+              <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.2rem; flex-wrap: wrap;">
+                <span class="kpi-subtitle" id="kpiGrossPeriod" style="color: var(--accent-cyan); margin-top: 0;">Cumulative</span>
+                <span id="kpiGrossYoY" class="yoy-badge" style="display: none;"></span>
+              </div>
+            </div>
+          </div>
+          <div class="glass-card kpi-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-red);">
+            <div class="kpi-icon" style="background: rgba(244, 63, 94, 0.12); color: var(--accent-red);">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/></svg>
+            </div>
+            <div class="kpi-data">
+              <span class="kpi-title">Total Deductions</span>
+              <span class="kpi-value" id="kpiDeductions" style="color: var(--accent-red);">₹0.00</span>
+              <span class="kpi-subtitle" style="color: var(--accent-red);">Including Income Tax</span>
+            </div>
+          </div>
+          <div class="glass-card kpi-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-purple);">
+            <div class="kpi-icon" style="background: rgba(139, 92, 246, 0.12); color: var(--accent-purple);">
+              <svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M1.5 8A6.5 6.5 0 1 1 14.5 8 6.5 6.5 0 0 1 1.5 8M8 2a6 6 0 1 0 0 12A6 6 0 0 0 8 2m.75 8.25v.5a.5.5 0 0 1-1 0V9.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1zM8 5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 8 5"/></svg>
+            </div>
+            <div class="kpi-data">
+              <span class="kpi-title">Active Car Loan Balance</span>
+              <span class="kpi-value" id="kpiLoanBal" style="color: var(--accent-purple);">₹0.00</span>
+              <span class="kpi-subtitle" id="kpiLoanInstl" style="color: var(--accent-purple);">Installment: ₹0.00/mo</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Charts Row -->
+        <div class="dashboard-charts" style="grid-template-columns: 1fr; margin-bottom: 1.25rem;">
+          <div class="glass-card chart-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-blue);">
+            <div class="card-title">📊 Historical Salary Trends</div>
+            <div style="position: relative; height: 320px; width: 100%;">
+              <canvas id="salaryTrendChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-charts chart-three-cols" style="margin-bottom: 1.75rem;">
+          <div class="glass-card chart-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-purple);">
+            <div class="card-title">🍩 Earnings Breakdown</div>
+            <div style="position: relative; height: 180px; width: 100%;">
+              <canvas id="salaryAllocationChart"></canvas>
+            </div>
+            <div class="custom-legend" id="earningsLegend"></div>
+          </div>
+          <div class="glass-card chart-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-red);">
+            <div class="card-title">🍩 Deductions Breakdown</div>
+            <div style="position: relative; height: 180px; width: 100%;">
+              <canvas id="salaryDeductionChart"></canvas>
+            </div>
+            <div class="custom-legend" id="deductionsLegend"></div>
+          </div>
+          <div class="glass-card chart-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-orange);">
+            <div class="card-title">🍩 Employer's Contribution Breakdown</div>
+            <div style="position: relative; height: 180px; width: 100%;">
+              <canvas id="salaryEmployerChart"></canvas>
+            </div>
+            <div class="custom-legend" id="employerLegend"></div>
+          </div>
+        </div>
+
+        <!-- Section Label -->
+        <div style="font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 0.75rem;">Financial Analytics</div>
+
+        <!-- Dashboard Widgets Grid -->
+        <div class="dashboard-widgets-grid">
+          <!-- Widget 1: Car Loan Repayment Progress -->
+          <div class="glass-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-purple);">
+            <div class="card-title" style="color: var(--accent-purple);">🚗 Car Loan Progress</div>
+            <div id="loanWidgetPlaceholder" style="display: none; text-align: center; color: var(--text-muted); padding: 2.5rem 1rem; font-size: 0.85rem;">
+              🚗 No active car loan found.
+            </div>
+            <div id="loanWidgetContent" class="loan-progress-container" style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1rem;">
+              <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+                <span style="color: var(--text-secondary);">Repayment Progress:</span>
+                <span id="loanProgressPercent" style="font-weight: 700;">0%</span>
+              </div>
+              <div class="progress-bar-bg" style="width: 100%; height: 10px; background: rgba(255,255,255,0.05); border-radius: 5px; overflow: hidden; border: 1px solid var(--glass-border);">
+                <div id="loanProgressBar" style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--accent-purple), var(--accent-blue)); border-radius: 5px; transition: width 0.5s ease;"></div>
+              </div>
+              <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-top: 0.25rem;">
+                <span style="color: var(--text-muted);">Paid: <strong id="loanPaidAmt" style="color: var(--text-primary);">₹0</strong></span>
+                <span style="color: var(--text-muted);">Remaining: <strong id="loanRemAmt" style="color: var(--text-primary);">₹0</strong></span>
+              </div>
+              <div style="border-top: 1px solid rgba(255,255,255,0.05); padding-top: 0.75rem; display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.8rem;">
+                <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Monthly Installment:</span><span id="loanInstlText" style="font-weight: 600;">₹0.00</span></div>
+                <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Accrued Interest:</span><span id="loanIntText" style="font-weight: 600; color: var(--accent-orange);">₹0.00</span></div>
+                <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Interest Rate:</span><span id="loanRateText" style="font-weight: 600;">N/A</span></div>
+                <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Repayment Type:</span><span id="loanTypeText" style="font-weight: 600; color: var(--accent-cyan); font-size: 0.75rem;">N/A</span></div>
+                <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Remaining Term:</span><span id="loanTermText" style="font-weight: 600;">0 months (0.0 yrs)</span></div>
+                <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Projected Payoff:</span><span id="loanPayoffText" style="font-weight: 700; color: var(--accent-green);">N/A</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Widget 2: Income Tax Estimator -->
+          <div class="glass-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-red);">
+            <div class="card-title" style="color: var(--accent-red);">💼 Income Tax Estimator</div>
+            <div class="tax-estimator-container" style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.8rem; margin-top: 0.5rem;">
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Gross Taxable Salary:</span><span id="taxGrossText" style="font-weight: 600;">₹0.00</span></div>
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Standard Deduction:</span><span style="font-weight: 600; color: var(--accent-green);">-₹75,000.00</span></div>
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Net Taxable Income:</span><span id="taxNetText" style="font-weight: 600;">₹0.00</span></div>
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Estimated Slab Rate:</span><span id="taxSlabText" style="font-weight: 700; color: var(--accent-cyan);">0%</span></div>
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Tax Paid Till Date:</span><span id="taxPaidYtdText" style="font-weight: 600;">₹0.00</span></div>
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">Remaining Tax:</span><span id="taxRemainingText" style="font-weight: 600; color: var(--accent-orange);">₹0.00</span></div>
+              <div style="border-top: 1px solid rgba(255,255,255,0.05); padding-top: 0.5rem; margin-top: 0.25rem; display: flex; justify-content: space-between; font-size: 0.85rem;">
+                <span style="color: var(--text-primary); font-weight: 600;">Estimated Annual Tax:</span>
+                <span id="taxAnnualText" style="font-weight: 700; color: var(--accent-red);">₹0.00</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Widget 3: Emergency / Pension Corpus Projection -->
+          <div class="glass-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-green);">
+            <div class="card-title" style="color: var(--accent-green);">📈 Emergency / Pension Corpus Projection</div>
+            <div style="display: flex; flex-direction: column; gap: 0.45rem; font-size: 0.8rem; margin-top: 0.5rem;">
+
+              <!-- Section A: Avg Monthly Contributions -->
+              <div style="font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted);">Avg. Monthly Contributions</div>
+              <div style="display: flex; justify-content: space-between;"><span id="labelMonthlyCpf" style="color: var(--text-secondary);">Monthly CPF (Emp + Empr) — FY 25-26:</span><span id="projMonthlyCpf" style="font-weight: 600;">₹0.00</span></div>
+              <div style="display: flex; justify-content: space-between;"><span id="labelMonthlyNps" style="color: var(--text-secondary);">Monthly NPS (Emp + Empr) — FY 25-26:</span><span id="projMonthlyNps" style="font-weight: 600;">₹0.00</span></div>
+              <div style="display: flex; justify-content: space-between;"><span id="labelMonthlyPrbs" style="color: var(--text-secondary);">Monthly PRBS (Emp + Empr) — FY 25-26:</span><span id="projMonthlyPrbs" style="font-weight: 600;">₹0.00</span></div>
+
+              <!-- Section B: Cumulative Accrued (All FYs) -->
+              <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 0.45rem; margin-top: 0.1rem; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted);">Cumulative Contributed — All FYs Till Date</div>
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">CPF Fund (Emp + Empr Total):</span><span id="projAccruedCpf" style="font-weight: 700; color: var(--accent-green);">₹0.00</span></div>
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">NPS Fund (Emp + Empr Total):</span><span id="projAccruedNps" style="font-weight: 700; color: var(--accent-cyan);">₹0.00</span></div>
+              <div style="display: flex; justify-content: space-between;"><span style="color: var(--text-secondary);">PRBS Fund (Emp + Empr Total):</span><span id="projAccruedPrbs" style="font-weight: 700; color: var(--accent-orange);">₹0.00</span></div>
+              <div style="display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 0.35rem; margin-top: 0.05rem;">
+                <span style="color: var(--text-primary); font-weight: 600;">Combined Corpus (as-contributed):</span>
+                <span id="projTotalAccrued" style="font-weight: 700; color: var(--text-primary);">₹0.00</span>
+              </div>
+
+              <!-- Section C: Projected Wealth -->
+              <div style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 0.45rem; margin-top: 0.1rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                <div style="display: flex; justify-content: space-between; font-weight: 600;">
+                  <span style="color: var(--text-secondary);">Projected Corpus Growth:</span>
+                  <span style="font-size: 0.68rem; color: var(--text-muted); font-weight: 500;">@ Blended 8% p.a.*</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; color: var(--accent-cyan); font-weight: 600;"><span id="labelWealth40">At Age 40:</span><span id="projWealth40">₹0.00</span></div>
+                <div style="display: flex; justify-content: space-between; color: var(--accent-green); font-weight: 600;"><span id="labelWealth50">At Age 50:</span><span id="projWealth50">₹0.00</span></div>
+                <div style="display: flex; justify-content: space-between; color: var(--accent-orange); font-weight: 700;"><span id="labelWealth60">At Age 60 (Retirement):</span><span id="projWealth60">₹0.00</span></div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- VIEW 2: MASTER SPREADSHEET -->
+      <section id="spreadsheet-view" class="view-section">
+        <div class="glass-card">
+          <div class="sheet-header-actions">
+            <h2 class="card-title">Salary Breakdown Ledger</h2>
+            <div class="filters-group">
+              <select id="fySelector" onchange="renderSpreadsheet()">
+                <!-- Populated via Javascript -->
+              </select>
+              <button class="btn-primary" onclick="exportToCSV()">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg>
+                Export Ledger (CSV)
+              </button>
+            </div>
+          </div>
+          
+          <div class="spreadsheet-container">
+            <table class="salary-table" id="spreadsheetTable">
+              <!-- Rebuilt via JavaScript -->
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 3: VERIFICATION & ANOMALIES -->
+      <section id="verification-view" class="view-section">
+        <!-- Verification Overview -->
+        <div class="verification-summary-cards">
+          <div class="glass-card kpi-card discrepancy-card">
+            <div class="kpi-icon" style="background: rgba(244, 63, 94, 0.1); color: var(--accent-red);">⚠️</div>
+            <div class="kpi-data">
+              <span class="kpi-title">Active Discrepancies</span>
+              <span class="kpi-value" id="verDiscrepanciesCount">0</span>
+              <span class="kpi-subtitle" style="color: var(--accent-red);">Differences from formula</span>
+            </div>
+          </div>
+          <div class="glass-card kpi-card recovery-card">
+            <div class="kpi-icon" style="background: rgba(245, 158, 11, 0.1); color: var(--accent-orange);">💸</div>
+            <div class="kpi-data">
+              <span class="kpi-title">Unexplained Recoveries</span>
+              <span class="kpi-value" id="verRecoveriesTotal">₹0.00</span>
+              <span class="kpi-subtitle" style="color: var(--accent-orange);">Unexplained items not in formula</span>
+            </div>
+          </div>
+          <div class="glass-card kpi-card formula-card">
+            <div class="kpi-icon" style="background: rgba(59, 130, 246, 0.1); color: var(--accent-blue);">🧪</div>
+            <div class="kpi-data">
+              <span class="kpi-title">Formula Models Loaded</span>
+              <span class="kpi-value" id="verActiveRules">Active Model</span>
+              <span class="kpi-subtitle" style="color: var(--accent-blue);">Based on Salary breakdown.xlsx</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="verification-header">
+          <h2 class="card-title">Formula Variance Audit</h2>
+          <div class="filters-group">
+            <select id="verFySelector" onchange="runAudit()"></select>
+            <button class="btn-secondary" onclick="openFormulaModal()">⚙️ Manage Formula Rules</button>
+            <button class="btn-secondary" onclick="document.getElementById('excelInput').click()">📥 Upload Excel Breakdown</button>
+            <button class="btn-secondary" onclick="resetFormulaVariables()" title="Clear stale localStorage variables then re-upload Excel for a clean import" style="opacity:0.75;">🔄 Reset Variables</button>
+            <input type="file" id="excelInput" accept=".xlsx, .xls" style="display: none;" onchange="handleExcelUpload(event)">
+          </div>
+        </div>
+
+        <!-- Split View: Left List of months with errors, Right detailed side-by-side -->
+        <div class="verification-split">
+          <div class="glass-card">
+            <h3 class="card-title" style="font-size: 1rem;">Audit Months</h3>
+            <div class="discrepancy-list" id="auditMonthsList">
+              <!-- Populated via JS -->
+            </div>
+          </div>
+          
+          <div class="glass-card verification-detail-panel">
+            <div class="card-title" id="auditDetailTitle">Variance Analysis for month</div>
+            
+            <div class="audit-mode-selector">
+              <button class="mode-btn active" id="modeBtnMonthly" onclick="changeAuditMode('monthly')">Monthly Detail</button>
+              <button class="mode-btn" id="modeBtnYtd" onclick="changeAuditMode('ytd')">Cumulative YTD (April - Selected Month)</button>
+            </div>
+            
+            <!-- Variance Audit Summary Cards -->
+            <div class="audit-summary-cards" id="auditSummaryCards"></div>
+            
+            <div class="comparison-grid">
+              <!-- Earnings Comparison -->
+              <div class="comparison-table-container">
+                <table class="comparison-table" id="earnCompareTable">
+                  <thead>
+                    <tr>
+                      <th>Earnings Item</th>
+                      <th style="text-align: right;">Actual</th>
+                      <th style="text-align: right;">Expected</th>
+                      <th style="text-align: right;">Var</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+
+              <!-- Deductions Comparison -->
+              <div class="comparison-table-container">
+                <table class="comparison-table" id="dedCompareTable">
+                  <thead>
+                    <tr>
+                      <th>Deduction Item</th>
+                      <th style="text-align: right;">Actual</th>
+                      <th style="text-align: right;">Expected</th>
+                      <th style="text-align: right;">Var</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+
+              <!-- Employer Contributions Comparison -->
+              <div class="comparison-table-container">
+                <table class="comparison-table" id="ercCompareTable">
+                  <thead>
+                    <tr>
+                      <th>Employer Contribution</th>
+                      <th style="text-align: right;">Actual</th>
+                      <th style="text-align: right;">Expected</th>
+                      <th style="text-align: right;">Var</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+
+              <!-- YTD / Perk Verification -->
+              <div class="comparison-table-container">
+                <table class="comparison-table" id="ytdCompareTable">
+                  <thead>
+                    <tr>
+                      <th>YTD / Perk Metric</th>
+                      <th style="text-align: right;">Actual</th>
+                      <th style="text-align: right;">Expected</th>
+                      <th style="text-align: right;">Var</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Future Projection Sandbox -->
+            <div class="glass-card" style="background: rgba(255, 255, 255, 0.02); margin-top: 1rem; border-color: rgba(255,255,255,0.04);">
+              <h4 class="card-title" style="font-size: 0.95rem; margin-bottom: 0.75rem;">Salary Projection Sandbox</h4>
+              <div class="filters-group" style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                <select id="projMonth" style="width: 120px; background: rgba(15, 23, 42, 0.4); border: 1px solid var(--glass-border); color: var(--text-primary); padding: 0.4rem; border-radius: 6px; font-family: var(--font-family); font-size: 0.8rem; font-weight: 600;">
+                  <option value="April">April</option>
+                  <option value="May">May</option>
+                  <option value="June">June</option>
+                  <option value="July">July</option>
+                  <option value="August">August</option>
+                  <option value="September">September</option>
+                  <option value="October">October</option>
+                  <option value="November">November</option>
+                  <option value="December">December</option>
+                  <option value="January">January</option>
+                  <option value="February">February</option>
+                  <option value="March" selected>March</option>
+                </select>
+                <select id="projFy" style="width: 110px; background: rgba(15, 23, 42, 0.4); border: 1px solid var(--glass-border); color: var(--text-primary); padding: 0.4rem; border-radius: 6px; font-family: var(--font-family); font-size: 0.8rem; font-weight: 600;">
+                  <option value="2025-26">2025-26</option>
+                  <option value="2026-27" selected>2026-27</option>
+                  <option value="2027-28">2027-28</option>
+                </select>
+                <button class="btn-primary" onclick="calculateProjection()">Project Future Slip</button>
+              </div>
+              <div id="projectionOutput" style="font-size: 0.85rem; color: var(--text-secondary);">
+                Click "Project Future Slip" to see expected Earnings, Deductions, and Net Pay breakdown based on the Manage Formula Rules configurations.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 4: PDF SLIP MAPPER -->
+      <section id="mapper-view" class="view-section">
+        <div class="mapper-layout">
+          <!-- Left side: upload and PDF viewer -->
+          <div class="glass-card pdf-viewer-card">
+            <h2 class="card-title">Salary Slip Parsing Upload</h2>
+            
+            <div class="upload-zone" id="dropZone" onclick="document.getElementById('pdfInput').click()">
+              <div class="upload-icon">📥</div>
+              <p>Drag & Drop Monthly PDF Salary Slip here</p>
+              <p style="font-size: 0.8rem; color: var(--text-muted);">Or click to browse files</p>
+              <input type="file" id="pdfInput" accept="application/pdf" style="display: none;" onchange="handleFileUpload(event)">
+            </div>
+            
+            <h3 class="card-title" style="font-size: 0.9rem; margin-top: 1.5rem; margin-bottom: 0.5rem;">Extracted PDF Layout View</h3>
+            <div class="pdf-raw-text" id="pdfRawText">
+              No PDF file loaded. Upload a payslip to view its raw text layout and extract variables.
+            </div>
+          </div>
+
+          <!-- Right side: parsed fields review -->
+          <div class="glass-card mapped-variables-card">
+            <h2 class="card-title">
+              Parsed Components Preview
+              <button class="btn-primary" id="saveSlipBtn" disabled onclick="saveParsedSlip()">Save to Spreadsheet</button>
+            </h2>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+              The engine automatically maps the rows and columns based on the coordinate patterns of the uploaded pay slips. Review the extracted metrics below.
+            </p>
+            
+            <div class="variables-preview-list" id="parsedVarsList">
+              <div style="text-align: center; color: var(--text-muted); margin-top: 5rem;">
+                Upload a payslip PDF to preview mapping outcomes.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 5: DATA STORAGE & SYNC HUB -->
+      <section id="data-view" class="view-section">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+          <h2 class="card-title" style="margin: 0; font-size: 1.3rem;">📊 Data Connection & Storage Hub</h2>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;" class="data-hub-grid">
+          
+          <!-- Column 1, Card 1: Storage Overview -->
+          <div class="glass-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-blue);">
+            <h3 class="card-title" style="font-size: 1.1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              💾 Active Storage Overview
+            </h3>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem;">
+              <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.5rem;">
+                <span style="color: var(--text-secondary);">Connection State:</span>
+                <span id="dataHubConnState" style="font-weight: 600; color: var(--accent-cyan);">Detecting...</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.5rem;">
+                <span style="color: var(--text-secondary);">Current Storage Mode:</span>
+                <span id="dataHubStorageMode" style="font-weight: 600; color: var(--text-primary);">Browser Local Cache</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.5rem;">
+                <span style="color: var(--text-secondary);">Total Financial Years Loaded:</span>
+                <span id="dataHubTotalFys" style="font-weight: 600; color: var(--accent-green);">0</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; padding-bottom: 0.25rem;">
+                <span style="color: var(--text-secondary);">Total Payslips Stored:</span>
+                <span id="dataHubTotalSlips" style="font-weight: 600; color: var(--accent-purple);">0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 1, Card 2: Local Server Status & Disk Saving -->
+          <div class="glass-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-purple);">
+            <h3 class="card-title" style="font-size: 1.1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              🖥️ Local Python Server Autosave
+            </h3>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.4;">
+              If you run the app using the local server (`python server.py`), the app automatically detects it and commits any updates to `salary_data.json` and `formula_rules.json` directly onto your computer's hard drive.
+            </p>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <span class="yoy-badge" id="localServerBadge" style="background: rgba(255,255,255,0.05); color: var(--text-muted);">Checking...</span>
+              <button class="btn-secondary" id="localServerSyncBtn" disabled style="padding: 0.35rem 0.75rem; font-size: 0.75rem;">Test Connection</button>
+            </div>
+          </div>
+
+          <!-- Column 2, Card 1: JSON File Backup (Option B) -->
+          <div class="glass-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-green);">
+            <h3 class="card-title" style="font-size: 1.1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              📁 File Backup & Restore (Option B)
+            </h3>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 1.25rem; line-height: 1.4;">
+              Export your entire database (slips + formulas) into a single portable backup file. This file can be shared or transferred to any browser or device (including mobile) to restore your data instantly.
+            </p>
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+              <button class="btn-primary" onclick="exportLedgerJSON()">📤 Export Backup JSON</button>
+              <button class="btn-secondary" onclick="document.getElementById('importJsonInput').click()">📥 Import Backup JSON</button>
+              <input type="file" id="importJsonInput" accept=".json" style="display: none;" onchange="importLedgerJSON(event)">
+            </div>
+          </div>
+
+          <!-- Column 2, Card 2: Google Drive Cloud Sync (Option C) -->
+          <div class="glass-card" style="box-shadow: var(--shadow-main), inset 0 3px 0 0 var(--accent-cyan);">
+            <h3 class="card-title" style="font-size: 1.1rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+              ☁️ Google Drive Cloud Sync (Option C)
+            </h3>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.4;">
+              Sync all of your database records and custom formula rules securely and privately to your own Google account. Stored in your private Google Drive AppData folder.
+            </p>
+            
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.25rem;">
+              <div style="display: flex; flex-direction: column; gap: 0.25rem;">
+                <label for="gdriveClientId" style="font-size: 0.75rem; font-weight: 600; color: var(--text-secondary);">Google OAuth Client ID</label>
+                <div style="display: flex; gap: 0.5rem;">
+                  <input type="text" id="gdriveClientId" placeholder="Paste your Google Client ID here..." style="flex: 1; padding: 0.4rem; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: var(--text-primary); border-radius: 6px; font-size: 0.8rem;">
+                  <button class="btn-secondary" onclick="saveGoogleClientId()" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;">Save</button>
+                </div>
+              </div>
+              <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.5rem; background: rgba(255,255,255,0.02); border-radius: 6px; border: 1px solid var(--glass-border);">
+                <div style="display: flex; flex-direction: column; gap: 0.15rem;">
+                  <span style="font-size: 0.75rem; color: var(--text-secondary);">Status:</span>
+                  <span id="gdriveStatus" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted);">Not Connected</span>
+                </div>
+                <div style="display: flex; gap: 0.5rem;">
+                  <button class="btn-primary" id="gdriveLoginBtn" onclick="connectGoogleDrive()" style="font-size: 0.8rem; padding: 0.35rem 0.75rem;">🔑 Log In</button>
+                  <button class="btn-secondary" id="gdriveLogoutBtn" onclick="disconnectGoogleDrive()" style="display: none; font-size: 0.8rem; padding: 0.35rem 0.75rem;">Sign Out</button>
+                </div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 0.5rem;">
+              <button class="btn-secondary" id="gdrivePullBtn" disabled onclick="pullGDriveLedger()" style="flex: 1; font-size: 0.75rem;">📥 Pull Cloud Data</button>
+              <button class="btn-secondary" id="gdrivePushBtn" disabled onclick="pushGDriveLedger()" style="flex: 1; font-size: 0.75rem;">📤 Push Cloud Data</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- System Setup and Permission Guide -->
+        <div class="glass-card" style="box-shadow: var(--shadow-main);">
+          <h3 class="card-title" style="font-size: 1.1rem; margin-bottom: 1rem;">📖 Guide: Running the App with Google Sync & Local Autosave</h3>
+          
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; font-size: 0.8rem; line-height: 1.5; color: var(--text-secondary);">
+            <div>
+              <h4 style="color: var(--accent-green); margin-bottom: 0.5rem; font-size: 0.9rem;">1. Setting up Local Server Auto-saving</h4>
+              <ol style="margin-left: 1.2rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                <li>Open a terminal inside the project directory: `/Users/amrindersingh/Desktop/Salary tracker/`</li>
+                <li>Start the local server script:
+                  <code style="background: rgba(0,0,0,0.3); padding: 0.2rem 0.4rem; border-radius: 4px; display: block; margin-top: 0.25rem; font-family: monospace; color: var(--accent-cyan);">python server.py</code>
+                </li>
+                <li>Open your browser and navigate to:
+                  <a href="http://localhost:8080" target="_blank" style="color: var(--accent-cyan); font-weight: 600; text-decoration: underline;">http://localhost:8080</a>
+                </li>
+                <li>The server will now automatically save edits back to disk files.</li>
+              </ol>
+            </div>
+            
+            <div>
+              <h4 style="color: var(--accent-cyan); margin-bottom: 0.5rem; font-size: 0.9rem;">2. Creating Google Cloud Credentials</h4>
+              <ol style="margin-left: 1.2rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                <li>Go to the <a href="https://console.cloud.google.com" target="_blank" style="color: var(--accent-cyan); text-decoration: underline;">Google Cloud Console</a> and create a project.</li>
+                <li>Under <strong>APIs & Services</strong>, enable the <strong>Google Drive API</strong>.</li>
+                <li>Go to the <strong>Credentials</strong> tab, and click <strong>Create Credentials > OAuth Client ID</strong> (Web Application).</li>
+                <li>Add `http://localhost:8080` to <strong>Authorized JavaScript origins</strong>.</li>
+                <li>Copy the generated <strong>Client ID</strong> and paste it into the Google OAuth Client ID field on this page.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+
+  <!-- MODAL: Formula Editor -->
+  <div class="modal" id="formulaModal">
+    <div class="glass-card modal-content" style="max-width: 1000px; width: 95%;">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title">Salary Rule Variables Configuration</h3>
+          <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem;">
+            Configure variable calculation formulas and their frequency of occurrence, or upload "Salary breakdown.xlsx" to populate automatically.
+          </p>
+        </div>
+        <button class="close-btn" onclick="closeFormulaModal()">×</button>
+      </div>
+      
+      <div style="display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center; justify-content: space-between;">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <label for="modalFySelector" style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary);">Rules for FY:</label>
+          <select id="modalFySelector" onchange="changeModalFy(this.value)" style="padding: 0.35rem 0.5rem; background: rgba(15, 23, 42, 0.6); border: 1px solid var(--glass-border); color: var(--text-primary); border-radius: 6px; font-family: var(--font-family); font-size: 0.8rem; font-weight: 600;">
+            <!-- Populated dynamically -->
+          </select>
+          <button class="btn-secondary" onclick="document.getElementById('modalExcelInput').click()">📥 Upload Excel Breakdown</button>
+          <input type="file" id="modalExcelInput" accept=".xlsx, .xls" style="display: none;" onchange="handleExcelUpload(event)">
+        </div>
+        <button class="btn-add-var" onclick="addNewRuleVariable()">➕ Add Calculation Variable</button>
+      </div>
+      
+      <div style="max-height: 50vh; overflow-y: auto; margin-bottom: 1.5rem; border: 1px solid var(--glass-border); border-radius: 8px;">
+        <table class="rules-table" id="rulesVariablesTable">
+          <thead>
+            <tr>
+              <th style="width: 20%;">Variable Name</th>
+              <th style="width: 12%;">Section</th>
+              <th style="width: 15%;">Calculation Base</th>
+              <th style="width: 15%;">Formula / Value</th>
+              <th style="width: 10%;">Changes Mid-Year?</th>
+              <th style="width: 13%;">Frequency</th>
+              <th style="width: 10%;">Specific Months</th>
+              <th style="width: 5%; text-align: center;">Act</th>
+            </tr>
+          </thead>
+          <tbody id="rulesVariablesTbody">
+            <!-- Populated dynamically via JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <div style="display: flex; gap: 1.5rem; margin-bottom: 1rem; background: rgba(255, 255, 255, 0.02); padding: 1rem; border-radius: 8px; border: 1px solid var(--glass-border); flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 150px;">
+          <label for="ruleBasicInc" style="font-size: 0.8rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">Basic Pay Annual Increment (%)</label>
+          <input type="number" id="ruleBasicInc" step="0.1" value="3.0" style="width: 100%; padding: 0.35rem; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: var(--text-primary); border-radius: 4px;">
+        </div>
+        <div style="flex: 1; min-width: 150px;">
+          <label for="ruleDA" style="font-size: 0.8rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">Expected DA Rate (%)</label>
+          <input type="number" id="ruleDA" step="0.1" value="53.4" style="width: 100%; padding: 0.35rem; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: var(--text-primary); border-radius: 4px;">
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+          <label for="ruleUniform" style="font-size: 0.8rem; font-weight: 600; display: block; margin-bottom: 0.25rem;">Uniform Reimb (Annual Base)</label>
+          <input type="number" id="ruleUniform" value="264670" style="width: 100%; padding: 0.35rem; background: rgba(0,0,0,0.2); border: 1px solid var(--glass-border); color: var(--text-primary); border-radius: 4px;">
+        </div>
+      </div>
+      
+      <div style="display: flex; justify-content: flex-end; gap: 1rem; margin-top: 1rem;">
+        <button class="btn-secondary" onclick="closeFormulaModal()">Cancel</button>
+        <button class="btn-primary" onclick="saveFormulaRules()">Save Rules</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main script file -->
+  <script src="app.js?v=1.0.6"></script>
+</body>
+</html>
