@@ -6226,7 +6226,11 @@ function connectGoogleDrive() {
       alert("Please enter your Google OAuth Client ID first and click Save.");
       return;
     }
-    const redirectUri = 'http://localhost';
+    // Dynamically calculate redirect URI based on active environment (GitHub Pages vs Localhost/Capacitor)
+    let redirectUri = window.location.origin + window.location.pathname;
+    if (redirectUri.endsWith('/index.html')) {
+      redirectUri = redirectUri.substring(0, redirectUri.length - 10);
+    }
     const authUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${encodeURIComponent(CLIENT_ID)}&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=token&scope=https://www.googleapis.com/auth/drive.appdata&prompt=consent`;
     window.location.href = authUrl;
     return;
